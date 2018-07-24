@@ -1,10 +1,152 @@
+<!DOCTYPE html>
 <html lang="en">
-    <head>
+<style>
+    /* body,
+    html {
+        min-height: 100%; */
 
-    </head>
-    <body>
-        <div>
-            hello
+    /* height:100%; */
+
+    /* margin-bottom: 0px; */
+
+    /* } */
+
+    nav{
+        transition: background-color 400ms !important;
+        -webkit-transition: background-color 400ms !important; /* Safari */
+    }
+    .heading-container {
+        color: white!important;
+        margin-top: 20%!important;
+        text-align: center;
+    }
+
+    .bg {
+        /* The image used */
+        background-image: url("img/mars-background.jpg");
+        /* Full height */
+        height: 700px;
+
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .full {
+        height: 500px;
+    }
+
+    #challenge-header {
+        margin-top: 40px;
+    }
+
+    .challenge-content {
+        margin-top: 20px;
+    }
+
+    .main-content {
+        margin-top: 20px;
+    }
+
+
+
+</style>
+
+<head>
+
+    <title>Welcome | Watlock</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <nav></nav>
+
+    <div class="bg main-container">
+        <div style="visibility:hidden">hi </div>
+        <div class="container heading-container">
+            <h1>Welcome to Watlock</h1>
+            <p class="lead">University of Waterloo Airlock Design Team</p>
         </div>
-    </body>
+        <div class="container">
+            <!-- <img class="rounded mx-auto d-block" src="img/team.jpg" width="100%" height="auto"> -->
+
+            <!-- <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1 class="text-uppercase text-white">
+                        <strong>Welcome to Watlock</strong>
+                    </h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <img class="rounded mx-auto d-block" src="img/team.jpg" width="100%" height="auto">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="text-white">
+                        Waterloo Airlock Team 2018
+                    </h2>
+                </div>
+            </div> -->
+        </div>
+
+    </div>
+    <div class="container main-container">
+        <h2>The Challenge</h2>
+        <div class="main-content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id suscipit tellus. In quis quam tristique, feugiat lorem ac,
+            rutrum elit. Vestibulum nisi libero, suscipit ac lectus ac, accumsan imperdiet tellus. Cras quis leo sem. In
+            sapien ex, rutrum vel laoreet ac, mollis at quam. Maecenas dapibus tellus vitae risus lacinia dictum. Vestibulum
+            ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent auctor dolor mi, non efficitur
+            libero tempus nec. Etiam blandit felis id elit dictum ultrices. Etiam sit amet commodo nulla. Morbi vel lectus
+            consequat, suscipit lacus et, maximus diam. Cras tempus dapibus mollis. Nunc maximus mi leo, lobortis interdum
+            tellus posuere quis. Quisque suscipit arcu eu tortor lacinia, a lacinia nulla pulvinar. Duis et diam libero.
+            Proin imperdiet luctus libero et rutrum.
+        </div>
+        <div>
+            <a href="https://www.ubcmarscompetition.com/">
+                Learn more
+            </a>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color: #f5f5f5; padding:40px 0px;">
+        <div class="container">
+            <h2>The Team</h2>
+
+            <img class="rounded mx-auto d-block main-content" src="img/team.jpg" width="100%" height="auto">
+        </div>
+        
+    </div>
+    <footer></footer>
+
+
+</body>
+
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="js/inclusion.js"></script>
+
+<script>
+     $(window).scroll(function(){
+        let top = $(window).scrollTop();
+        if(top >=150){
+            $('nav').addClass("bg-dark")
+        }else if($(window).width()>785){
+            $('nav').removeClass("bg-dark")
+        }
+    $(window).resize(function(){
+        if($(window).width()<=785){
+            $('nav').addClass("bg-dark")
+        }else{
+            $('nav').removeClass("bg-dark")
+        }
+    })
+        
+    })
+</script>
+
 </html>
