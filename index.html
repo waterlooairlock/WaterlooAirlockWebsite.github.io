@@ -11,10 +11,12 @@
 
     /* } */
 
-    nav{
+    nav {
         transition: background-color 400ms !important;
-        -webkit-transition: background-color 400ms !important; /* Safari */
+        -webkit-transition: background-color 400ms !important;
+        /* Safari */
     }
+
     .heading-container {
         color: white!important;
         margin-top: 20%!important;
@@ -48,9 +50,6 @@
     .main-content {
         margin-top: 20px;
     }
-
-
-
 </style>
 
 <head>
@@ -76,14 +75,10 @@
     <div class="container main-container">
         <h2>The Challenge</h2>
         <div class="main-content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id suscipit tellus. In quis quam tristique, feugiat lorem ac,
-            rutrum elit. Vestibulum nisi libero, suscipit ac lectus ac, accumsan imperdiet tellus. Cras quis leo sem. In
-            sapien ex, rutrum vel laoreet ac, mollis at quam. Maecenas dapibus tellus vitae risus lacinia dictum. Vestibulum
-            ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent auctor dolor mi, non efficitur
-            libero tempus nec. Etiam blandit felis id elit dictum ultrices. Etiam sit amet commodo nulla. Morbi vel lectus
-            consequat, suscipit lacus et, maximus diam. Cras tempus dapibus mollis. Nunc maximus mi leo, lobortis interdum
-            tellus posuere quis. Quisque suscipit arcu eu tortor lacinia, a lacinia nulla pulvinar. Duis et diam libero.
-            Proin imperdiet luctus libero et rutrum.
+            WatLock is a student design team at the University of Waterloo that’s goal is to make an airlock for a mars colony. We will
+            be competing in UBC’s Mars Colony Project Airlock Challenge in May 2019 for the design competition and then in
+            May 2020 for the prototyping competition. To successfully compete in the competition, our team consists of students
+            from a wide array of programs that will work together to solve the issues of space settlement.
         </div>
         <div>
             <a href="https://www.ubcmarscompetition.com/">
@@ -97,7 +92,7 @@
 
             <img class="rounded mx-auto d-block main-content" src="img/team.jpg" width="100%" height="auto">
         </div>
-        
+
     </div>
     <footer></footer>
 
@@ -108,21 +103,21 @@
 <script src="js/inclusion.js"></script>
 
 <script>
-     $(window).scroll(function(){
+    $(window).scroll(function () {
         let top = $(window).scrollTop();
-        if(top >=150){
+        if (top >= 150) {
             $('nav').addClass("bg-dark")
-        }else if($(window).width()>785){
+        } else if ($(window).width() > 785) {
             $('nav').removeClass("bg-dark")
         }
-    $(window).resize(function(){
-        if($(window).width()<=785){
-            $('nav').addClass("bg-dark")
-        }else{
-            $('nav').removeClass("bg-dark")
-        }
-    })
-        
+        $(window).resize(function () {
+            if ($(window).width() <= 785) {
+                $('nav').addClass("bg-dark")
+            } else {
+                $('nav').removeClass("bg-dark")
+            }
+        })
+
     })
 </script>
 
