@@ -8,8 +8,8 @@ $(document).ready(function () {
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="watlockpageicon.png" type="image/x-icon">
+    <link rel="icon" href="watlockpageicon.png" type="image/x-icon">
     <!-- Bootstrap core CSS -->
     <link href="`+SCRIPT_ROOT+`vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
