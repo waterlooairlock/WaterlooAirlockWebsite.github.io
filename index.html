@@ -22,7 +22,24 @@
         margin-top: 20%!important;
         text-align: center;
     }
-
+    
+    .mainicon {
+        width:30%; 
+        height: auto;
+    }
+    
+    @media only screen and (max-width: 768px) {
+        
+        .heading-container {
+            margin-top: 40%!important;
+        }
+        
+        .mainicon {
+            width:50%!important;
+            height: auto;
+        }
+    }
+    
     .bg {
         /* The image used */
         background-image: url("img/mars-background.jpg");
@@ -54,21 +71,21 @@
 
 <head>
 
-    <title>Welcome | Watlock</title>
+    <title>Welcome | WatLock</title>
     <link href="css/style.css" rel="stylesheet">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="watlockpageicon.png" type="image/x-icon">
+    <link rel="icon" href="watlockpageicon.png" type="image/x-icon">
 </head>
 
 <body>
 
     <nav></nav>
-
+    
     <div class="bg main-container">
         <div style="visibility:hidden">hi </div>
         <div class="container heading-container">
-            <h1>Welcome to Watlock</h1>
-            <p class="lead">University of Waterloo Airlock Design Team</p>
+            <img class="mainicon" src="watlocklogo.png" alt="WatLock Logo">
+            <p class="lead" style="margin-top: 5%;">University of Waterloo Airlock Design Team</p>
         </div>
 
     </div>
