@@ -8,8 +8,8 @@ $(document).ready(function () {
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="watlockpageicon.png" type="image/x-icon">
-    <link rel="icon" href="watlockpageicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="`+SCRIPT_ROOT+`watlockpageicon.png" type="image/x-icon">
+    <link rel="icon" href="`+SCRIPT_ROOT+`watlockpageicon.png" type="image/x-icon">
     <!-- Bootstrap core CSS -->
     <link href="`+SCRIPT_ROOT+`vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -38,12 +38,13 @@ $(document).ready(function () {
 {/* <img class="rounded" src="`+SCRIPT_ROOT+`img/logo.jpg" style="width: 40px"; height="auto";> */}
     
     let dark = (SCRIPT_ROOT=="./"&& $(window).width()>785)?" ":"bg-dark";
+    let logo = (SCRIPT_ROOT=="./"&& $(window).width()>785?"watlocklogo3.png":"watlocklogo2.png");
     $('nav').html(
         `
     <nav class="navbar navbar-expand-md navbar-dark fixed-top `+dark+`" id="mainNav">
         <div class="container">
             
-            <a class="navbar-brand" href="`+SCRIPT_ROOT+`index.html"><img src="`+SCRIPT_ROOT+`watlockicon.png" height="auto" width="auto" alt="watlockicon"></a>
+            <a class="navbar-brand" href="`+SCRIPT_ROOT+`index.html"><img src="`+SCRIPT_ROOT+``+logo+`" height="auto" width="100px" alt="watlockicon"></a>
             
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
