@@ -43,12 +43,8 @@ $(document).ready(function () {
         `
     <nav class="navbar navbar-expand-md navbar-dark fixed-top `+dark+`" id="mainNav">
         <div class="container">
-            
-<<<<<<< HEAD
-            <a class="navbar-brand" href="`+SCRIPT_ROOT+`index.html"><img src="`+SCRIPT_ROOT+`watlockicon.png" height="auto" width="auto" alt="watlockicon"></a>
-=======
+
             <a class="navbar-brand" href="`+SCRIPT_ROOT+`index.html"><img src="`+SCRIPT_ROOT+``+logo+`" height="auto" width="100px" alt="watlockicon"></a>
->>>>>>> master
             
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
