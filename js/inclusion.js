@@ -86,8 +86,10 @@ $(document).ready(function () {
         <a href = "https://www.instagram.com/watlock_/" target = "_blank" id= "social_media_icon">
             <i class="fa fa-instagram fa-4x mb-3 media-icon" aria-hidden="true"></i>
         </a>
+        &nbsp
+        <a href = "https://twitter.com/lock_wat" target = "_blank" id= "social_media_icon">
+            <i class="fa fa-twitter-square fa-4x mb-3 media-icon" aria-hidden="true"></i>
+        </a>
     </div>
     `)
-
-
 });
