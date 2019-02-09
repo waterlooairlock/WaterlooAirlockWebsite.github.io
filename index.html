@@ -1,12 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+    /* body,
+    html {
+        min-height: 100%; */
+
+    /* height:100%; */
+
+    /* margin-bottom: 0px; */
+
+    /* } */
+
+    nav {
+        transition: background-color 400ms !important;
+        -webkit-transition: background-color 400ms !important;
+        /* Safari */
+    }
+
+    .heading-container {
+        color: white!important;
+        margin-top: 20%!important;
+        text-align: center;
+    }
+    
+    .mainicon {
+        width:30%; 
+        height: auto;
+    }
+    
+    @media only screen and (max-width: 768px) {
+        
+        .heading-container {
+            margin-top: 40%!important;
+        }
+        
+        .mainicon {
+            width:50%!important;
+            height: auto;
+        }
+    }
+    
+    .bg {
+        /* The image used */
+        background-image: url("img/mars-background.jpg");
+        /* Full height */
+        height: 700px;
+
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .full {
+        height: 500px;
+    }
+
+    #challenge-header {
+        margin-top: 40px;
+    }
+
+    .challenge-content {
+        margin-top: 20px;
+    }
+
+    .main-content {
+        margin-top: 20px;
+    }
+
+    .container-fluid {
+        height: 100%;
+        margin-bottom: 0;
+        background-color: #565B63 !important;
+    }
+
+    .container h2 {
+        color: #222222;
+    }
+
+</style>
 
 <head>
+
     <title>Welcome | WatLock</title>
     <link href="css/style.css" rel="stylesheet">
     <link rel="shortcut icon" href="watlockpageicon.png" type="image/x-icon">
     <link rel="icon" href="watlockpageicon.png" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 
 <body>
@@ -24,19 +103,8 @@
     </div>
     <div class="container main-container">
         <h2>The Challenge</h2>
-        <div id = "container-background">
-            <div class="main-content">
-                WatLock is a student design team at the University of Waterloo that’s goal is to make an airlock for a mars colony. We will
-                be competing in UBC’s Mars Colony Project Airlock Challenge in May 2019 for the design competition and then in
-                May 2020 for the prototyping competition. To successfully compete in the competition, our team consists of students
-                from a wide array of programs that will work together to solve the issues of space settlement.
-            </div>
-        </div>
-        
-        <div>
-            <a href="https://www.ubcmarscompetition.com/">
-                Learn more
-            </a>
+        <div class="main-content">
+            WatLock is a multidisciplinary student design team from the University of Waterloo with the mission to design an airlock device for human habitation on Mars. Consisting of a diverse array of talented students, WatLock hopes to address the many challenges of space exploration. Our airlock design will be a contender in UBC’s Mars Colony Project Airlock Challenge in May 2019, while our prototyping will show up in their second judging round in 2020. <br>Find out more about the challenge at <a href="https://www.ubcmarscompetition.com/">ubcmarscompetition.com</a>.
         </div>
     </div>
     <div class="container-fluid" style="background-color: #f5f5f5; padding:40px 0px;">
