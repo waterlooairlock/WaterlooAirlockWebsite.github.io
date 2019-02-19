@@ -1,0 +1,42 @@
+.team {
+	left: 10%;
+	right: 10%;
+	width: 100%;
+  	text-align: left;
+  	color: black;
+  	margin: 5%;
+  	display: inline-block;
+}
+
+
+.team-desc {
+	float: left;
+	margin: auto;
+	overflow-wrap: break-word;
+}
+
+.team-members {
+	float: left;
+	margin: auto;
+}
+
+[class^='imghvr-'],
+[class*=' imghvr-'] {
+  width: 30%;
+  height: auto;
+}
+
+figcaption {
+	margin: auto;
+	text-align: center;
+	bottom: 10%;
+}
+
+[class*=' imghvr-'], 
+[class^='imghvr-'],
+[class*=' imghvr-']:before,
+[class^='imghvr-']:before,
+[class*=' imghvr-']:after,
+[class^='imghvr-']:after {
+	background-color: red;
+}
