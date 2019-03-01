@@ -1,13 +1,9 @@
 .team {
-	left: 10%;
-	right: 10%;
-	width: 100%;
   	text-align: left;
   	color: black;
   	margin: 5%;
   	display: inline-block;
 }
-
 
 .team-desc {
 	float: left;
@@ -15,9 +11,25 @@
 	overflow-wrap: break-word;
 }
 
-.team-members {
+.team-members{
 	float: left;
 	margin: auto;
+}
+
+.execs {
+	padding-left: 15px;
+  	padding-right: 15px;
+}
+
+.execs h3 {
+	text-align: center;
+	max-width: 100%;
+}
+.execs [class^='imghvr-'],
+[class*=' imghvr-'] {
+  width: 24.5%;
+  height: auto;
+ 
 }
 
 [class^='imghvr-'],

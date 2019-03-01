@@ -16,13 +16,20 @@ body, html {
 
 .parallax-caption {
   position: absolute;
-  left: 5%;
   top: 50%;
-  text-align: left;
+}
+
+.parallax-title {
+  margin-bottom:30px!important;
+}
+
+.desc-caption {
+    text-align: left;
   color: white;
   width: 50%;
   padding-left: 2.5%;
   border-left: 3px solid white;
+  left: 5%;
 }
 
 #team-header-bg {
