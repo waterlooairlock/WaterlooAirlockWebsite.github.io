@@ -73,7 +73,7 @@ $(document).ready(function () {
     </nav>
     `);
 
-    $('footer').addClass('footer').html(`
+    $('footer').addClass('footer').html(`<footer>
     <div class="container text-right" >     
         <a href="https://www.linkedin.com/company/watlock/" target="_blank" id="social_media_icon">
             <i class="fa fa-linkedin-square fa-4x mb-3 media-icon" aria-hidden="true"></i>
@@ -91,5 +91,5 @@ $(document).ready(function () {
             <i class="fa fa-twitter-square fa-4x mb-3 media-icon" aria-hidden="true"></i>
         </a>
     </div>
-    `)
+    </footer>`)
 });
