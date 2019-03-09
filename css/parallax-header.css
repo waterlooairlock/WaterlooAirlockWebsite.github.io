@@ -14,6 +14,13 @@ body, html {
   filter: brightness(50%);
 }
 
+@media only screen and (max-device-width: 1024px) {
+  #team-header-bg {
+    background-attachment: scroll;
+  }
+}
+
+
 .parallax-caption {
   position: absolute;
   top: 50%;
@@ -33,5 +40,5 @@ body, html {
 }
 
 #team-header-bg {
-	background-image: url('C:/Users/Joolia/Documents/WatLock Site/img/team.jpg');
+	background-image: url('../img/teamw19.jpg');
 }

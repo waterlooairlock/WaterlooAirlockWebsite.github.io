@@ -91,5 +91,7 @@ $(document).ready(function () {
             <i class="fa fa-twitter-square fa-4x mb-3 media-icon" aria-hidden="true"></i>
         </a>
     </div>
+`)
+});
     `)
 });
