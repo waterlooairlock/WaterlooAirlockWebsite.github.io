@@ -1,0 +1,54 @@
+.team {
+  	text-align: left;
+  	color: black;
+  	margin: 5%;
+  	display: inline-block;
+}
+
+.team-desc {
+	float: left;
+	margin: auto;
+	overflow-wrap: break-word;
+}
+
+.team-members{
+	float: left;
+	margin: auto;
+}
+
+.execs {
+	padding-left: 15px;
+  	padding-right: 15px;
+}
+
+.execs h3 {
+	text-align: center;
+	max-width: 100%;
+}
+.execs [class^='imghvr-'],
+[class*=' imghvr-'] {
+  width: 19.5%;
+  height: auto;
+ 
+}
+
+[class^='imghvr-'],
+[class*=' imghvr-'] {
+  width: 30%;
+  height: auto;
+}
+
+figcaption {
+	margin: auto;
+	text-align: center;
+	bottom: 10%;
+}
+
+[class*=' imghvr-'], 
+[class^='imghvr-'],
+[class*=' imghvr-']:before,
+[class^='imghvr-']:before,
+[class*=' imghvr-']:after,
+[class^='imghvr-']:after {
+	background-color: red;
+}

@@ -1,0 +1,44 @@
+body, html {
+  height: 100%;
+}
+
+.parallax {
+
+  /* Full height */
+  height: 100%; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(50%);
+}
+
+@media only screen and (max-device-width: 1024px) {
+  #team-header-bg {
+    background-attachment: scroll;
+  }
+}
+
+
+.parallax-caption {
+  position: absolute;
+  top: 50%;
+}
+
+.parallax-title {
+  margin-bottom:30px!important;
+}
+
+.desc-caption {
+    text-align: left;
+  color: white;
+  width: 50%;
+  padding-left: 2.5%;
+  border-left: 3px solid white;
+  left: 5%;
+}
+
+#team-header-bg {
+	background-image: url('../img/teamw19.jpg');
+}
