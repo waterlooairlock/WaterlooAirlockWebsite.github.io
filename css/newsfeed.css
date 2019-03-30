@@ -133,8 +133,8 @@ p.footer {
     margin-bottom: 0;
 }
 .timeline-footer {
-    padding: 5px 15px;
-    background-color:#f4f4f4;
+    padding: 7px 15px;
+    color: white;
 }
 .timeline-footer p { margin-bottom: 0; }
 .timeline-footer > a {
