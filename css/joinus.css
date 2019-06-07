@@ -1,0 +1,126 @@
+.header-1 {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Open Sans";
+  font-color: black;
+  margin-top: 170px;
+  position: relative;
+}
+
+.main-content {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  text-align: left;
+  font-weight: normal;
+  color: black;
+  margin-top: 50px;
+}
+
+.icon {
+  width: auto;
+  height: 50px;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 30px;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("img/sat.jpg");
+  /* Full height */
+  height: 100%;
+}
+
+.align-right {
+  text-align: right;
+  margin-top: 50px;
+}
+
+.align-left {
+  text-align: left;
+  margin-top: 50px;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.margin-right {
+  margin-right: 400px;
+}
+
+.margin-left {
+  margin-left: 400px;
+}
+
+.margin-bottom {
+  margin-bottom: 30px;
+}
+
+.margin-top {
+  margin-top: 50px;
+}
+
+.background {
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Create the parallax scrolling effect*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#image-right1 {
+  margin-left: 750px;
+  margin-top: 5px;
+  position: absolute;
+  border-radius: 15px;
+  float: right;
+  clear: left;
+}
+
+#image-right2 {
+  margin-left: 760px;
+  margin-top: 5px;
+  position: absolute;
+  border-radius: 15px;
+  float: right;
+  clear:left;
+}
+
+#image-left2 {
+  float: left;
+  margin-left: -230px;
+  position: relative;
+  border-radius: 15px;
+}
+
+.short-text {
+  text-align: center;
+}
+
+.hr-home {
+  border-width: 10px;
+  margin-top: 50px;
+}
+
+.icon1 {
+  margin-left:525px;
+  height: 50px;
+  margin-bottom: -250px;
+}
+.footer{
+  padding-bottom: 0;
+  margin-bottom:0;
+  position: absolute;
+}

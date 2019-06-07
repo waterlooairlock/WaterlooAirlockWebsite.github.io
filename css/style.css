@@ -29,7 +29,7 @@ footer {
     line-height: 50px; /* Vertically center the text there */
     background-color: #0E100B!important;
     /* padding:0 40px; */
-    
+
 }
 
 .heading-container{
@@ -55,48 +55,4 @@ ul li {
 #mainNav {
     background-color: none!important;
 
-}
-
-/* nav li {
-    margin: 0 auto;
-    list-style: none;
-    text-align: center;
-}
-
-nav a {
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-} */ */
-
-
-
-section {
-    padding: 4rem 0;
-}
-
-.btn {
-    font-family:'Open Sans','Helvetica Neue',Arial,sans-serif;
-/*    border-radius: 5%;*/
-}
-
-.media-icon {
-    color: #C0C0C0;
-    font-size:30px;
-}
-
-.media-icon:hover {
-    -webkit-transition:all .2s;
-    -moz-transition:all .2s;
-    -o-transition:all 0.2s;
-    -ms-transition:all 0.2s;
-    transition:all .2s;
-    color:#696969;
-}
-
-#Social {
-    
-}
-
-.bg-dark {
-    background-color: #383838!important;
 }

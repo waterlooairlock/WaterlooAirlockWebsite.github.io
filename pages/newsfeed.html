@@ -1,24 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
     <head>
 
-        <title>News Feed | WatLock</title>
+        <title>WatLock | Timeline</title>
         <link href="../css/newsfeed.css" rel="stylesheet">
-        
+
     </head>
-    
+
     <body>
-        
+
         <nav></nav>
-        
+
         <div class="container heading-container">
-            <h1>News Feed</h1>
+            <h1 class="header-1">Timeline</h1>
         </div>
-        
+
         <div class="container">
         <!--News Feed-->
         <ul class="timeline">
+          <li class="timeline-inverted">
+              <div class="timeline-badge">
+                  <a><i class="fa fa-circle invert" id=""></i></a>
+              </div>
+              <div class="timeline-panel">
+                  <div class="timeline-heading">
+                      <h4>WatLock Wins best presentation award!</h4>
+                  </div>
+                  <div class="timeline-body">
+                      <p>On the weekend of May 18th, 2019, various universities came together to present their airlock design at UBC’s Mars Colony Project Airlock Challenge. WatLock proudly won the best presentation award after months of hard work! Special thanks to Adam, Yifei, Johnny, Alyssa, and Logan who made sure that the presentation was flawless hours before the competition.
+What’s next? Building a prototype for our airlock design to compete in May 2020! </p>
+                      <img class="rounded mx-auto d-block main-content" alt="WatLock Team" src="../img/ubc1.jpg" width="auto" height="300px">
+                  </div>
+                  <div class="timeline-footer">
+                      <p class="text-right">May 21th, 2019 </p>
+                  </div>
+              </div>
+          </li>
+          <li>
+              <div class="timeline-badge">
+                <a><i class="fa fa-circle" id=""></i></a>
+              </div>
+              <div class="timeline-panel">
+                  <div class="timeline-heading">
+                      <h4>Winter 2019 Team Social!</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p> The team went to CTRL V, Canada's first virtual reality arcade! </p>
+                    <img class="rounded mx-auto d-block main-content" alt="WatLock Team" src="../img/ctrlv.jpg" width="450" height="300px">
+
+                  </div>
+                  <div class="timeline-footer">
+                      <p class="text-right">Feb 14th, 2019 </p>
+                  </div>
+              </div>
+          </li>
             <li class="timeline-inverted">
                 <div class="timeline-badge">
                     <a><i class="fa fa-circle invert" id=""></i></a>
@@ -71,13 +107,35 @@
             <li class="clearfix no-float"></li>
         </ul>
         </div>
-        
-       
-        
+
+
+
     </body>
     <footer style="position: absolute;"></footer>
-    
+
     <script src="../vendor/jquery/jquery.min.js"></script>
     <script src="../js/inclusion.js"></script>
-    
+
+    <footer class="footer">
+      <div class="container text-right">
+        <a class="white" href="https://www.linkedin.com/company/watlock/" target="_blank" id="social_media_icon">
+          <i class="fa fa-linkedin-square fa-4x mb-3 media-icon" aria-hidden="true"></i>
+        </a>
+        &nbsp
+        <a class="white" href="https://www.facebook.com/WaterlooAirlock/" target="_blank" id="social_media_icon">
+          <i class="fa fa-facebook-square fa-4x mb-3 media-icon" aria-hidden="true"></i>
+        </a>
+        &nbsp
+        <a class="white" href="https://www.instagram.com/wat.lock" target="_blank" id="social_media_icon">
+          <i class="fa fa-instagram fa-4x mb-3 media-icon" aria-hidden="true"></i>
+        </a>
+        &nbsp
+        <a class="white" href="https://twitter.com/lock_wat" target="_blank" id="social_media_icon">
+          <i class="fa fa-twitter-square fa-4x mb-3 media-icon" aria-hidden="true"></i>
+        </a>
+      </div>
+    </footer>
+
+
+
 </html>

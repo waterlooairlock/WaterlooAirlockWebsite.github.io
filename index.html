@@ -1,142 +1,349 @@
 <!DOCTYPE html>
 <html lang="en">
-<style>
-    /* body,
-    html {
-        min-height: 100%; */
-
-    /* height:100%; */
-
-    /* margin-bottom: 0px; */
-
-    /* } */
-
-    nav {
-        transition: background-color 400ms !important;
-        -webkit-transition: background-color 400ms !important;
-        /* Safari */
-    }
-
-    .heading-container {
-        color: white!important;
-        margin-top: 20%!important;
-        text-align: center;
-    }
-    
-    .mainicon {
-        width:30%; 
-        height: auto;
-    }
-    
-    @media only screen and (max-width: 768px) {
-        
-        .heading-container {
-            margin-top: 40%!important;
-        }
-        
-        .mainicon {
-            width:50%!important;
-            height: auto;
-        }
-    }
-    
-    .bg {
-        /* The image used */
-        background-image: url("img/mars-background.jpg");
-        /* Full height */
-        height: 700px;
-
-        /* Center and scale the image nicely */
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    .full {
-        height: 500px;
-    }
-
-    #challenge-header {
-        margin-top: 40px;
-    }
-
-    .challenge-content {
-        margin-top: 20px;
-    }
-
-    .main-content {
-        margin-top: 20px;
-    }
-
-    .container-fluid {
-        padding-bottom: 50px;
-        margin-bottom: 0px;
-    }
-
-    .container h2 {
-        color: #222222;
-    }
-
-</style>
 
 <head>
-
-    <title>Welcome | WatLock</title>
-    <link href="css/style.css" rel="stylesheet">
-    <link rel="shortcut icon" href="watlockpageicon.png" type="image/x-icon">
-    <link rel="icon" href="watlockpageicon.png" type="image/x-icon">
+  <title>WatLock | Welcome</title>
+  <link href="css/main.css" rel="stylesheet">
+  <link rel="shortcut icon" href="watlockpageicon.png" type="image/x-icon">
+  <link rel="icon" href="watlockpageicon.png" type="image/x-icon">
 </head>
 
 <body>
+  <nav></nav>
+  <div class="bg main-container background">
+    <div style="visibility:hidden">hi </div>
+    <div class="container heading-container">
+      <!--            <img class="mainicon" src="watlocklogo.png" alt="WatLock Logo">-->
+      <p class="intro">Design. Build. Compete.</p>
+      <p class="sub-intro"> <strong>WatLock</strong> ventures towards Mars Colonization!</p>
+      <button type="button" class="button"><a class="white" href="pages/joinus.html">Join us</a></button>
+    </div>
 
-    <nav></nav>
-    
-    <div class="bg main-container">
-        <div style="visibility:hidden">hi </div>
-        <div class="container heading-container">
-            <img class="mainicon" src="watlocklogo.png" alt="WatLock Logo">
-<!--            <img class="mainicon" src="watlocklogo.png" alt="WatLock Logo">-->
-            <p class="lead" style="margin-top: 5%;">University of Waterloo Airlock Design Team</p>
-        </div>
+  </div>
+  <div class="container main-container">
+    <div class="main-content">
+      <img class="icon" src="img/marsicon.jpg">
+      <br>
+      <p>The idea of building a self-sustaining colonization on Mars and becoming an interplanetary species has seen decades of discussions. It is an aspiring mission that companies such as Mars One, NASA and SpaceX are currently working on . . . and
+        so are we.
+      </p>
+      <hr class="hr-home">
+      <h2 class="heading"> About us </h2>
+      <p> WatLock is a multidisciplinary student design team from the University of Waterloo with the mission to design an airlock for human habitation on Mars. Consisting of a diverse group of young innovators, WatLock hopes to address the many
+        challenges of space exploration.
+        <br>
+        <h3 class="heading">Did you know ?</h3>
+        We are one of the few design teams at the University of Waterloo that builds its foundation around space engineering and the only team working towards space colonization!
+      </p>
+      <hr class="hr-home">
 
     </div>
-    <div class="container main-container">
-        <h2>The Challenge</h2>
-        <div class="main-content">
-          WatLock is a multidisciplinary student design team from the University of Waterloo with the mission to design an airlock for human habitation on Mars. Consisting of a diverse array of talented students, WatLock hopes to address the many challenges of space exploration. Our airlock design was a contender in UBC’s Mars Colony Project Airlock Challenge in May 2019, while our prototype will show up in their second judging round in 2020. <br>Find out more about the challenge at <a href="https://www.ubcmarscompetition.com/">ubcmarscompetition.com</a>.
-        </div>
-    </div>
-    <div class="container-fluid" style="background-color: #f5f5f5; padding:40px 0px;">
-        <div class="container">
-            <h2>Meet the Team</h2>
+  </div>
 
-            <img class="rounded mx-auto d-block main-content" src="img/teamw19.jpg" width="100%" height="auto">
-        </div>
+  <div class="bg2 background">
+    <p class="quote">
+      "You want to wake up in the morning and think the future is going to be great - and that's what being a spacefaring civilization is all about. It's about believing in the future and thinking that the future will be better than the past. And I
+      can't think of anything more exciting than going out there and being among the stars."
+      <br><br>
+      - Elon Musk, SpaceX
 
-    </div>
+    </p>
+
+  </div>
+  <div class="container main-container">
+    <img class="" src="">
+    <hr class="hr-home">
+    <h2 class="heading"> Project Airlock Challenge | Phase I <img class="icon" src="img/tick.jpg"> </h2>
+    <p class="align-left main-content">
+      There is only one mission: Design and build an airlock that will function in a human colony on Mars.
+      <br>
+      Our airlock will be crucial to providing a safe entryway into any sort of Martian habitat that can sustain an atmosphere for people to breathe.
+      <br><br>
+      However, settling on the red planet inherently comes with numerous technical complications; the planet has a lack of pressure, no breathable atmosphere, extremely cold temperatures, and hazardous perchlorates in the soil.
+      <br><br> <!--
+      <img class="icon icon-margin" src="img/temperature.jpg">
+      <img class="icon icon-margin" src="img/pressure.jpg">
+      <img class="icon icon-margin" src="img/atmosphere.jpg">
+      <img class="icon icon-margin" src="img/toxic.jpg">
+      <br>
+    -->
+      On the weekend of May 18th, 2019, various universities came together to present their airlock design at UBC’s Mars Colony Project Airlock Challenge. WatLock proudly won the best presentation award after months of hard work.
+
+    </p>
+    <hr class="hr-home">
+    <h2 class="heading"> Project Airlock Challenge | Phase II </h2>
+    <br>
+    <p class="align-left main-content">
+      Now that the design is done, it's time build a functional prototype!
+      <br><br>
+      This spring 2019, we’ll be building a depressurization system and hatches for the airlock, designing a user interface for astronauts to use, and building a central computer.
+      <br><br>
+      Read more about the competition <a href="https://www.ubcmarscompetition.com/" target="_blank"> here! </a>
+    </p>
+    <hr class="hr-home">
+  </div>
+
+  <div class="bg3 background">
+  </div>
+
 </body>
+<footer>
+  <div class="container text-right">
+    <a class="white" href="https://www.linkedin.com/company/watlock/" target="_blank" id="social_media_icon">
+      <i class="fa fa-linkedin-square fa-4x mb-3 media-icon" aria-hidden="true"></i>
+    </a>
+    &nbsp
+    <a class="white" href="https://www.facebook.com/WaterlooAirlock/" target="_blank" id="social_media_icon">
+      <i class="fa fa-facebook-square fa-4x mb-3 media-icon" aria-hidden="true"></i>
+    </a>
+    &nbsp
+    <a class="white" href="https://www.instagram.com/wat.lock" target="_blank" id="social_media_icon">
+      <i class="fa fa-instagram fa-4x mb-3 media-icon" aria-hidden="true"></i>
+    </a>
+    &nbsp
+    <a class="white" href="https://twitter.com/lock_wat" target="_blank" id="social_media_icon">
+      <i class="fa fa-twitter-square fa-4x mb-3 media-icon" aria-hidden="true"></i>
+    </a>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
 <footer style="position: absolute;"></footer>
 
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="js/inclusion.js"></script>
 
 <script>
-    $(window).scroll(function () {
-        let top = $(window).scrollTop();
-        if (top >= 150) {
-            $('nav').addClass("bg-dark")
-        } else if ($(window).width() > 785) {
-            $('nav').removeClass("bg-dark")
-        }
-        $(window).resize(function () {
-            if ($(window).width() <= 785) {
-                $('nav').addClass("bg-dark")
-            } else {
-                $('nav').removeClass("bg-dark")
-            }
-        })
-
+  $(window).scroll(function() {
+    let top = $(window).scrollTop();
+    if (top >= 150) {
+      $('nav').addClass("bg-dark")
+    } else if ($(window).width() > 785) {
+      $('nav').removeClass("bg-dark")
+    }
+    $(window).resize(function() {
+      if ($(window).width() <= 785) {
+        $('nav').addClass("bg-dark")
+      } else {
+        $('nav').removeClass("bg-dark")
+      }
     })
+
+  })
 </script>
 
 </html>
+
+<style>
+  /* body,
+html {
+    min-height: 100%; */
+
+  /* height:100%; */
+
+  /* margin-bottom: 0px; */
+
+  /* } */
+
+  nav {
+    transition: background-color 400ms !important;
+    -webkit-transition: background-color 400ms !important;
+    /* Safari */
+  }
+
+  .intro {
+    color: white;
+    text-align: left;
+    position: relative;
+    margin-bottom: 5px;
+    font-size: 45px;
+    font-family: "Open Sans", sans-serif;
+
+  }
+
+  .sub-intro {
+    color: white;
+    position: relative;
+    font-family: "Open Sans", sans-serif;
+    width: 500px;
+    text-align: left;
+    height: 35px;
+    font-size: 18px;
+  }
+
+  .button {
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    border: none;
+    padding: 10px 18px;
+    position: relative;
+    text-align: left;
+    margin-right: 1000px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 15px;
+  }
+
+  .white {
+    color: white;
+  }
+
+  .heading-container {
+    color: white !important;
+    margin-top: 20% !important;
+    text-align: center;
+  }
+
+  .mainicon {
+    width: 30%;
+    height: auto;
+    position: absoulute;
+    margin-top: 2px;
+  }
+
+  @media only screen and (max-width: 768px) {
+
+    .heading-container {
+      margin-top: 40% !important;
+    }
+
+    .mainicon {
+      width: 50% !important;
+      height: auto;
+    }
+  }
+
+  body,
+  html {
+    height: 100%;
+
+  }
+
+
+  .bg {
+    /* The image used */
+    background-image: url("img/mars-background.jpg");
+
+
+    /* Full height */
+    height: 100%;
+
+  }
+
+  .bg2 {
+    /* The image used */
+    background-image: url("img/mars.jpg");
+
+
+    /* Full height */
+    height: 90%;
+    margin-top: 50px;
+  }
+
+  .bg3 {
+    /* The image used */
+    background-image: url("img/stars.jpg");
+
+    /* Full height */
+    height: 90%;
+
+  }
+
+  .background {
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    /* Create the parallax scrolling effect*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .full {
+    height: 500px;
+  }
+
+  #challenge-header {
+    margin-top: 40px;
+  }
+
+  .challenge-content {
+    margin-top: 20px;
+  }
+
+  .main-content {
+    font-family:Arial, Times, serif;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: normal;
+    color: black;
+
+  }
+
+  .align-left.main-content {
+    text-align: left;
+  }
+
+
+
+  .container-fluid {
+    padding-bottom: 50px;
+    margin-bottom: 0px;
+  }
+
+  .container h2 {
+    color: #222222;
+  }
+
+  .icon {
+    width: auto;
+    height: 28px;
+    margin-bottom:5px;
+    margin-left: 10px;
+
+  }
+
+
+  .icon-margin {
+    margin-left: 120px;
+    margin-right: 75px;
+  }
+
+  .heading {
+    margin-top: 10 px;
+    font-family: "Times New Roman", sans-serif;
+    font-weight: bold;
+  }
+
+  .hr-home {
+    border-width: 5px;
+    margin-top: 50px;
+  }
+
+  .quote {
+    font-style: oblique;
+    font-family: Georgia, sans-serif;
+    font-size: 20px;
+    color: white;
+    width: 300px;
+    border: 5px solid white;
+    padding: 20px;
+    margin-left: 1000px;
+    margin-top: 80px;
+    position: absolute;
+  }
+</style>

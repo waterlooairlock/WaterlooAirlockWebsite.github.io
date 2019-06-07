@@ -3,35 +3,8 @@
 
 <head>
 
-    <title>Sponsors | WatLock</title>
+    <title>WatLock | Sponsors</title>
     <link href="../css/style.css" rel="stylesheet">
-
-    <style>
-        .img-responsive {
-            width: 100%;
-            height: auto;
-            border-radius: 5%;
-            display: block;
-            margin: auto;
-        }
-
-        @media only screen and (min-width: 768px) {
-            .img-responsive:hover {
-                transform: scale(1.1);
-                transition: 0.2s;
-            }
-        }
-
-        @media only screen and (max-width: 768px) {
-            .img-responsive {
-                padding: 1rem 0;
-            }
-        }
-
-        .sponsors {
-            padding: 4rem 0;
-        }
-    </style>
 
 </head>
 
@@ -40,12 +13,16 @@
     <nav></nav>
 
     <div class="container heading-container">
-        <h1>Sponsors</h1>
+        <h1 class="header-1">Our Sponsors</h1>
+        <p class="main-content">
+          As we enter our build phase, Watlock requires the resources to be able to bring our Airlock design to life. This would not be possible without our amazing sponsors.
+        </p>
+
     </div>
 
     <section class="sponsors">
         <div class="container">
-            
+
             <div class="row">
                 <div class="col-sm-4">
                     <a href="https://www.echoworx.com/" target="_blank">
@@ -63,7 +40,7 @@
                     </a>
                 </div>
             </div>
-            
+
             <div class="row">
                 <div class="col-sm-4">
                     <a href="https://www.solidworks.com/" target="_blank">
@@ -81,7 +58,7 @@
                     </a>
                 </div>
             </div>
-            
+
             <div class="row">
                 <div class="col-sm-4">
                     <a href="https://cplaw.com" target="_blank">
@@ -94,7 +71,7 @@
                     </a>
                 </div>
             </div>
-                
+
         </div>
     </section>
 
@@ -109,5 +86,80 @@
 
 <script src="../vendor/jquery/jquery.min.js"></script>
 <script src="../js/inclusion.js"></script>
+<footer class="footer">
+  <div class="container text-right">
+    <a class="white" href="https://www.linkedin.com/company/watlock/" target="_blank" id="social_media_icon">
+      <i class="fa fa-linkedin-square fa-4x mb-3 media-icon" aria-hidden="true"></i>
+    </a>
+    &nbsp
+    <a class="white" href="https://www.facebook.com/WaterlooAirlock/" target="_blank" id="social_media_icon">
+      <i class="fa fa-facebook-square fa-4x mb-3 media-icon" aria-hidden="true"></i>
+    </a>
+    &nbsp
+    <a class="white" href="https://www.instagram.com/wat.lock" target="_blank" id="social_media_icon">
+      <i class="fa fa-instagram fa-4x mb-3 media-icon" aria-hidden="true"></i>
+    </a>
+    &nbsp
+    <a class="white" href="https://twitter.com/lock_wat" target="_blank" id="social_media_icon">
+      <i class="fa fa-twitter-square fa-4x mb-3 media-icon" aria-hidden="true"></i>
+    </a>
+  </div>
+</footer>
+
+
+
+
+
+
+
 
 </html>
+
+<style>
+    .img-responsive {
+        width: 100%;
+        height: auto;
+        border-radius: 5%;
+        display: block;
+        margin: auto;
+    }
+
+    @media only screen and (min-width: 768px) {
+        .img-responsive:hover {
+            transform: scale(1.1);
+            transition: 0.2s;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .img-responsive {
+            padding: 1rem 0;
+        }
+    }
+
+    .sponsors {
+        padding: 4rem 0;
+    }
+    .header-1{
+      text-align: center;
+      font-weight: bold;
+      font-color:black;
+      margin-top:170px;
+      position:relative;
+    }
+    .main-content {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size:22px;
+        text-align: center;
+        font-weight: normal;
+        color: black;
+        margin-top:50px;
+
+    }
+
+    .footer{
+      padding-bottom: 0;
+      margin-bottom:0;
+      position: absolute;
+    }
+</style>
