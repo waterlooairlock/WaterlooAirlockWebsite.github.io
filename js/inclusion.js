@@ -55,12 +55,12 @@ $(document).ready(function () {
                     <a class="nav-link" href="`+SCRIPT_ROOT+`pages/about2.html">Meet the team</a>
                 </li>
                 </li>
-                
+
                 <li class="nav-item">
                     <a class="nav-link" href="`+SCRIPT_ROOT+`pages/newsfeed.html">Timeline</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="`+SCRIPT_ROOT+`pages/joinUs.html">Join Us</a>
+                    <a class="nav-link" href="`+SCRIPT_ROOT+`pages/joinus.html">Join Us</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="`+SCRIPT_ROOT+`pages/sponsors.html">Sponsors</a>
