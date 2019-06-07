@@ -28,15 +28,15 @@ $(document).ready(function () {
     `);
 
     function dynamicallyLoadScript(url) {
-        var script = document.createElement("script"); 
-        script.src = SCRIPT_ROOT+url; 
+        var script = document.createElement("script");
+        script.src = SCRIPT_ROOT+url;
         document.head.appendChild(script);
     }
     let script_list = ["vendor/jquery/jquery.min.js", "vendor/scrollreveal/scrollreveal.min.js", "vendor/jquery-easing/jquery.easing.min.js",
         "js/main.js", "vendor/bootstrap/js/bootstrap.bundle.min.js"]
     script_list.forEach(dynamicallyLoadScript)
 {/* <img class="rounded" src="`+SCRIPT_ROOT+`img/logo.jpg" style="width: 40px"; height="auto";> */}
-    
+
     let dark = (SCRIPT_ROOT=="./"&& $(window).width()>785)?" ":"bg-dark";
     let logo = (SCRIPT_ROOT=="./"&& $(window).width()>785?"watlocklogo3.png":"watlocklogo2.png");
     $('nav').html(
@@ -45,17 +45,22 @@ $(document).ready(function () {
         <div class="container">
 
             <a class="navbar-brand" href="`+SCRIPT_ROOT+`index.html"><img src="`+SCRIPT_ROOT+``+logo+`" height="auto" width="100px" alt="watlockicon"></a>
-            
+
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="`+SCRIPT_ROOT+`pages/about2.html">About</a>
+                    <a class="nav-link" href="`+SCRIPT_ROOT+`pages/about2.html">Meet the team</a>
+                </li>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="`+SCRIPT_ROOT+`pages/newsfeed.html">Timeline</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="`+SCRIPT_ROOT+`pages/newsfeed.html">News Feed</a>
+                    <a class="nav-link" href="`+SCRIPT_ROOT+`pages/joinUs.html">Join Us</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="`+SCRIPT_ROOT+`pages/sponsors.html">Sponsors</a>
@@ -63,18 +68,15 @@ $(document).ready(function () {
                 <li class="nav-item">
                     <a class="nav-link" href="`+SCRIPT_ROOT+`pages/contact.html">Contact</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="`+SCRIPT_ROOT+`pages/donate.html">Donate</a>
-                </li>
-                </ul>
+                  </ul>
             </div>
         </div>
-        
+
     </nav>
     `);
 
-    $('footer').addClass('footer').html(`
-    <div class="container text-right" >     
+    $('footer').addClass('footer')(`
+    <div class="container text-right" >
         <a href="https://www.linkedin.com/company/watlock/" target="_blank" id="social_media_icon">
             <i class="fa fa-linkedin-square fa-4x mb-3 media-icon" aria-hidden="true"></i>
         </a>
@@ -91,4 +93,5 @@ $(document).ready(function () {
             <i class="fa fa-twitter-square fa-4x mb-3 media-icon" aria-hidden="true"></i>
         </a>
     </div>`)
+
 });

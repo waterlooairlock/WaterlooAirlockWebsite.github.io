@@ -29,7 +29,7 @@
 [class*=' imghvr-'] {
   width: 19.5%;
   height: auto;
- 
+
 }
 
 [class^='imghvr-'],
@@ -44,11 +44,17 @@ figcaption {
 	bottom: 10%;
 }
 
-[class*=' imghvr-'], 
+[class*=' imghvr-'],
 [class^='imghvr-'],
 [class*=' imghvr-']:before,
 [class^='imghvr-']:before,
 [class*=' imghvr-']:after,
 [class^='imghvr-']:after {
 	background-color: red;
+}
+
+.footer{
+  padding-bottom: 0;
+  margin-bottom:0;
+  position: relative;
 }

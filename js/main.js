@@ -6,5 +6,6 @@ function toDonatePage() {
 }
 
 $(document).ready(function() {
+
     
 })

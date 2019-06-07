@@ -27,7 +27,7 @@
     <div class="container heading-container">
         <h1>Contact Us</h1>
     </div>
-    
+
     <div class="container">
         <div class="row">
             <div class="col-md-5 main-container">
@@ -61,12 +61,59 @@
     </div>
 
 
-   
+
 
 </body>
+<footer class="footer">
+  <div class="container text-right">
+    <a class="white" href="https://www.linkedin.com/company/watlock/" target="_blank" id="social_media_icon">
+      <i class="fa fa-linkedin-square fa-4x mb-3 media-icon" aria-hidden="true"></i>
+    </a>
+    &nbsp
+    <a class="white" href="https://www.facebook.com/WaterlooAirlock/" target="_blank" id="social_media_icon">
+      <i class="fa fa-facebook-square fa-4x mb-3 media-icon" aria-hidden="true"></i>
+    </a>
+    &nbsp
+    <a class="white" href="https://www.instagram.com/wat.lock" target="_blank" id="social_media_icon">
+      <i class="fa fa-instagram fa-4x mb-3 media-icon" aria-hidden="true"></i>
+    </a>
+    &nbsp
+    <a class="white" href="https://twitter.com/lock_wat" target="_blank" id="social_media_icon">
+      <i class="fa fa-twitter-square fa-4x mb-3 media-icon" aria-hidden="true"></i>
+    </a>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
 <footer style="position: absolute;"></footer>
 
-<script src="../vendor/jquery/jquery.min.js"></script>
-<script src="../js/inclusion.js"></script>
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="js/inclusion.js"></script>
+
+<script>
+  $(window).scroll(function() {
+    let top = $(window).scrollTop();
+    if (top >= 150) {
+      $('nav').addClass("bg-dark")
+    } else if ($(window).width() > 785) {
+      $('nav').removeClass("bg-dark")
+    }
+    $(window).resize(function() {
+      if ($(window).width() <= 785) {
+        $('nav').addClass("bg-dark")
+      } else {
+        $('nav').removeClass("bg-dark")
+      }
+    })
+
+  })
+</script>
+
 
 </html>
