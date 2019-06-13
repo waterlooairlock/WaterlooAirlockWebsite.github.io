@@ -52,7 +52,6 @@
   </div>
   <div class="container main-container">
     <img class="" src="">
-    <hr class="hr-home">
     <h2 class="heading"> Project Airlock Challenge | Phase I <img class="icon" src="img/tick.JPG"> </h2>
     <p class="align-left main-content">
       There is only one mission: Design and build an airlock that will function in a human colony on Mars.
@@ -81,13 +80,13 @@
       <br><br>
       Read more about the competition <a href="https://www.ubcmarscompetition.com/" target="_blank"> here! </a>
     </p>
-    <hr class="hr-home">
   </div>
 
   <div class="bg3 background">
   </div>
 
 </body>
+<!--
 <footer class="footer">
   <div class="container text-right">
     <a class="white" href="https://www.linkedin.com/company/watlock/" target="_blank" id="social_media_icon">
@@ -107,7 +106,21 @@
     </a>
   </div>
 </footer>
+-->
+<section id="lab_social_icon_footer">
+  <!-- Include Font Awesome Stylesheet in Header -->
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <div class="container">
+    <div class="text-center center-block">
+      <a href="https://www.facebook.com/WaterlooAirlock/" id="social-fb"class="btn btn-social-icon btn-facebook">
+        <i class="fa fa-facebook fa-3x social"></i></a>
+        <a href="https://twitter.com/lock_wat" id="social-tw" class="btn btn-social-icon btn-twitter"><i class="fa fa-twitter  fa-3x social"></i></a>
+      <a href="https://www.instagram.com/watlock_/" id="social-ig" class="btn btn-social-icon btn-instagram"><i class="fa fa-instagram fa-3x social"></i></a>
+      <a  href="https://www.linkedin.com/company/watlock/" id="social-in"class="btn btn-social-icon btn-linkedin"><i class="fa fa-linkedin fa-3x social"></i></a>
 
+    </div>
+  </div>
+</section>
 
 
 
@@ -253,8 +266,7 @@ html {
     /* The image used */
     background-image: url("img/stars.jpg");
 
-    /* Full height */
-    height: 90%;
+    height: 50%;
 
   }
 
@@ -346,6 +358,53 @@ html {
     margin-left: 1000px;
     margin-top: 80px;
     position: absolute;
+  }
+
+  #lab_social_icon_footer {
+    padding: 40px 0;
+    background-color: white;
+  }
+
+  #lab_social_icon_footer a {
+    color: #333;
+  }
+
+  #lab_social_icon_footer .social:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+  }
+
+  #lab_social_icon_footer .social {
+    -webkit-transform: scale(0.8);
+    /* Browser Variations: */
+
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+  }
+
+  /*
+      Multicoloured Hover Variations
+  */
+
+  #lab_social_icon_footer #social-fb:hover {
+    color: #3B5998;
+  }
+
+  #lab_social_icon_footer #social-ig:hover {
+    color:  #4E433C;
+  }
+
+
+  #lab_social_icon_footer #social-tw:hover {
+    color: #4099FF;
+  }
+
+  #lab_social_icon_footer #social-in:hover {
+    color: #4875B4;
   }
 
 
