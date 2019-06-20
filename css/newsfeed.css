@@ -153,8 +153,10 @@ p.footer {
 .timeline-footer {
     padding: 7px 15px;
     color: white;
+    background-color: white!important;
+    color::white!important;
 }
-.timeline-footer p { margin-bottom: 0; }
+.timeline-footer p { margin-bottom: 0; background-color: white;}
 .timeline-footer > a {
     cursor: pointer;
     text-decoration: none;
@@ -219,16 +221,14 @@ p.footer {
     }
 }
 
-.footer{
-  padding-bottom: 0;
-  margin-bottom:0;
-  position: absolute;
-}
+
 
 
 #lab_social_icon_footer {
-  padding: 40px 0;
-  background-color: white;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  position: absolute;
+  padding-left:41%;
 
 }
 
