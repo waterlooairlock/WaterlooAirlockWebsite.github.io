@@ -50,7 +50,6 @@ figcaption {
 [class^='imghvr-']:before,
 [class*=' imghvr-']:after,
 [class^='imghvr-']:after {
-	background-color: red;
 }
 
 .footer{
@@ -95,3 +94,14 @@ figcaption {
 #lab_social_icon_footer #social-ig:hover {
   color:  #4E433C;
 }
+
+
+  /* Mobile Styles */
+  @media only screen and (max-width: 500px) {
+
+    .responsive h2,h3,p
+    {
+      widows: 100%;
+      height:auto;
+    }
+  }
