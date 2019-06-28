@@ -2,14 +2,14 @@
   text-align: center;
   font-weight: bold;
   font-family: "Open Sans";
-  font-color: black;
+  color: black;
   margin-top: 170px;
   position: relative;
 }
 
 .main-content {
   font-family: Arial, sans-serif;
-  font-size: 20px;
+  font-size: 1.3em;
   text-align: left;
   font-weight: normal;
   color: black;
@@ -18,7 +18,7 @@
 
 .icon {
   width: auto;
-  height: 50px;
+  height: 100%;
   margin-bottom: 10px;
   display: block;
   margin-left: auto;
@@ -26,8 +26,8 @@
 }
 
 .container {
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 30%;
+  margin-right: 30%;
   margin-top: 30px;
 }
 
@@ -53,11 +53,11 @@
 }
 
 .margin-right {
-  margin-right: 400px;
+  margin-right: 40%;
 }
 
 .margin-left {
-  margin-left: 400px;
+  margin-left: 40%;
 }
 
 .margin-bottom {
@@ -81,7 +81,7 @@
 }
 
 #image-right1 {
-  margin-left: 750px;
+  margin-left: 50%;
   margin-top: 5px;
   position: absolute;
   border-radius: 15px;
@@ -90,7 +90,7 @@
 }
 
 #image-right2 {
-  margin-left: 760px;
+  margin-left: 50%;
   margin-top: 5px;
   position: absolute;
   border-radius: 15px;
@@ -100,7 +100,7 @@
 
 #image-left2 {
   float: left;
-  margin-left: -230px;
+  margin-left: -20%;
   position: relative;
   border-radius: 15px;
 }
@@ -115,7 +115,7 @@
 }
 
 .icon1 {
-  margin-left:525px;
+  margin-left:48%;
   height: 50px;
   margin-bottom: -250px;
 }
@@ -172,3 +172,52 @@
 #lab_social_icon_footer #social-in:hover {
   color: #4875B4;
 }
+
+
+  /* Mobile Styles */
+  @media only screen and (max-width: 500px) {
+    #image-right1 {
+      position: relative;
+      border-radius: 15px;
+      max-width:100%;
+      height:auto;
+      margin-bottom:5%;
+    }
+    
+    #image-right2 {
+      
+      position: relative;
+      border-radius: 15px;
+      max-width:100%;
+      height:auto;
+      margin-bottom:5%;
+
+    }
+    
+    #image-left2 {
+     position:relative;
+     max-width:100%;
+     height:auto;
+  
+    }
+
+    .margin-right {
+      margin-right: 0;
+    }
+    
+    .margin-left {
+      margin-left: 0;
+    }
+    
+    .margin-top{
+      margin-top:50px;
+    }
+
+    .icon1 {
+      margin-left:45%;
+      height: 50px;
+      margin-bottom: -250px;
+    }
+    
+  
+  }

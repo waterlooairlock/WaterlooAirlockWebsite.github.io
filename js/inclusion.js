@@ -5,7 +5,7 @@ $(document).ready(function () {
     $("head").html($("head").html() +
     `
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="`+SCRIPT_ROOT+`watlockpageicon.png" type="image/x-icon">

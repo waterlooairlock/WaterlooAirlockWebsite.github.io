@@ -12,7 +12,7 @@
 
 <body>
   <nav></nav>
-  <div class="bg main-container background">
+  <div class="bg main-container background flex-container">
     <div style="visibility:hidden">hi </div>
     <div class="container heading-container">
       <!--            <img class="mainicon" src="watlocklogo.png" alt="WatLock Logo">-->
@@ -116,7 +116,7 @@
     <div class="text-center center-block">
       <a href="https://www.facebook.com/WaterlooAirlock/" id="social-fb"class="btn btn-social-icon btn-facebook">
         <i class="fa fa-facebook fa-3x social"></i></a>
-        <a href="https://twitter.com/lock_wat" id="social-tw" class="btn btn-social-icon btn-twitter"><i class="fa fa-twitter  fa-3x social"></i></a>
+        <a href="https://twitter.com/_watlock?lang=en" id="social-tw" class="btn btn-social-icon btn-twitter"><i class="fa fa-twitter  fa-3x social"></i></a>
       <a href="https://www.instagram.com/watlock_/" id="social-ig" class="btn btn-social-icon btn-instagram"><i class="fa fa-instagram fa-3x social"></i></a>
       <a  href="https://www.linkedin.com/company/watlock/" id="social-in"class="btn btn-social-icon btn-linkedin"><i class="fa fa-linkedin fa-3x social"></i></a>
 
@@ -166,6 +166,10 @@ html {
   /* margin-bottom: 0px; */
 
   /* } */
+  @viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
 
   nav {
     transition: background-color 400ms !important;
@@ -178,7 +182,7 @@ html {
     text-align: left;
     position: relative;
     margin-bottom: 5px;
-    font-size: 45px;
+    font-size: 3.2em;
     font-family: "Open Sans", sans-serif;
 
   }
@@ -187,10 +191,10 @@ html {
     color: white;
     position: relative;
     font-family: "Open Sans", sans-serif;
-    width: 500px;
+    width: 50%;
     text-align: left;
-    height: 35px;
-    font-size: 18px;
+    height: 35%;
+    font-size: 1.3em;
   }
 
   .button {
@@ -202,10 +206,10 @@ html {
     padding: 10px 18px;
     position: relative;
     text-align: left;
-    margin-right: 1000px;
+    margin-right: 65vw;
     text-decoration: none;
-    font-size: 16px;
-    border-radius: 15px;
+    font-size:1em;
+    border-radius: 1em;
   }
 
   .white {
@@ -240,6 +244,7 @@ html {
   body,
   html {
     height: 100%;
+    width:100%;
 
   }
 
@@ -250,8 +255,8 @@ html {
 
 
     /* Full height */
-    height: 100%;
-
+    height: 100vh;
+    width: 100vw;
   }
 
   .bg2 {
@@ -261,6 +266,7 @@ html {
 
     /* Full height */
     height: 90%;
+    width:100%;
     margin-top: 50px;
   }
 
@@ -269,6 +275,7 @@ html {
     background-image: url("img/stars.jpg");
 
     height: 50%;
+    width:100%;
 
   }
 
@@ -287,7 +294,7 @@ html {
   }
 
   .full {
-    height: 500px;
+    height: 100%;
   }
 
   #challenge-header {
@@ -300,7 +307,7 @@ html {
 
   .main-content {
     font-family: Arial, Times, serif;
-    font-size: 18px;
+    font-size: 1.3em;
     margin-top: 10px;
     margin-bottom: 40px;
     text-align: center;
@@ -328,20 +335,20 @@ html {
     width: auto;
     height: 28px;
     margin-bottom: 5px;
-    margin-left: 10px;
+    margin-left:5%;
 
   }
 
 
   .icon-margin {
-    margin-left: 120px;
-    margin-right: 75px;
+    margin-left: 30%
   }
 
   .heading {
     margin-top: 10 px;
     font-family: "Times New Roman", sans-serif;
     font-weight: bold;
+    font-size:1.5em;
   }
 
   .hr-home {
@@ -352,13 +359,14 @@ html {
   .quote {
     font-style: oblique;
     font-family: Georgia, sans-serif;
-    font-size: 20px;
+    font-size: 1.3em;
     color: white;
-    width: 300px;
+    width: 20vw;
+    height:60%;
     border: 5px solid white;
     padding: 20px;
-    margin-left: 1000px;
-    margin-top: 80px;
+    margin-left: 65%;
+    margin-top: 90px;
     position: absolute;
   }
 
@@ -410,4 +418,56 @@ html {
   }
 
 
+
+
+  /* Mobile Styles */
+@media only screen and (max-width: 500px) {
+  
+  .flex-container{
+    display:flex;
+  }
+  .bg {
+    /* The image used */
+    background-image: url("img/mars-background.jpg");
+
+    display:flex;
+    /* Full height */
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .sub-intro {
+    color: white;
+    position: relative;
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+    text-align: left;
+    height: 35%;
+    font-size: 1.3em;
+  }
+
+  .quote {
+    font-style: oblique;
+    font-family: Georgia, sans-serif;
+    font-size: 1.3em;
+    color: white;
+    width: 80vw;
+    height:60%;
+    border: 5px solid white;
+    padding: 20px;
+    margin-left: 10%;
+    margin-top: 90px;
+    position: absolute;
+  }
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 501px) and (max-width: 960px) {
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+}
 </style>
