@@ -38,7 +38,7 @@ $(document).ready(function () {
 {/* <img class="rounded" src="`+SCRIPT_ROOT+`img/logo.jpg" style="width: 40px"; height="auto";> */}
 
     let dark = (SCRIPT_ROOT=="./"&& $(window).width()>785)?" ":"bg-dark";
-    let logo = (SCRIPT_ROOT=="./"&& $(window).width()>785?"watlocklogo3.png":"watlocklogo2.png");
+    let logo = (SCRIPT_ROOT=="./"&& $(window).width()>785?"watlocklogowhite.png":"watlocklogowhite.png");
     $('nav').html(
         `
     <nav class="navbar navbar-expand-md navbar-dark fixed-top `+dark+`" id="mainNav">

@@ -44,6 +44,11 @@ figcaption {
 	bottom: 10%;
 }
 
+p{
+  font-family: Arial, Times, serif;
+    font-size: 1.3em;
+}
+
 [class*=' imghvr-'],
 [class^='imghvr-'],
 [class*=' imghvr-']:before,
@@ -99,9 +104,9 @@ figcaption {
   /* Mobile Styles */
   @media only screen and (max-width: 500px) {
 
-    .responsive h2,h3,p
+    .responsive 
     {
-      widows: 100%;
-      height:auto;
+      width: 100%;
+      height: auto;
     }
   }

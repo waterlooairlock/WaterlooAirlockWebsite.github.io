@@ -195,11 +195,13 @@
     }
     
     #image-left2 {
-     position:relative;
+     position:absolute;
      max-width:100%;
      height:auto;
+     margin-bottom:1000px;
   
     }
+
 
     .margin-right {
       margin-right: 0;
@@ -218,6 +220,13 @@
       height: 50px;
       margin-bottom: -250px;
     }
-    
+
+    #lab_social_icon_footer {
+      padding-bottom: 0;
+      margin-bottom: 0;
+      position: absolute;
+      padding-left:20%;
   
+    }
   }
+    
