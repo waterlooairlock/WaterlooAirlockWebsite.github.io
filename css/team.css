@@ -219,7 +219,8 @@ p {
 @media only screen and (max-width: 500px) {
 
   .responsive {
-    max-width: 100%;
+    width: 100%;
     height: auto;
+    display:inline-block;
   }
 }
