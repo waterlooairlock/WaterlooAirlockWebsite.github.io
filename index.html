@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
 <head>
   <title>WatLock | Welcome</title>
   <link href="css/main.css" rel="stylesheet">
-  <link rel="shortcut icon" href="watlockpageicon.png" type="image/x-icon">
-  <link rel="icon" href="watlockpageicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="watlocklogotab.png" type="image/x-icon">
+  <link rel="icon" href="watlocklogotab.png" type="image/x-icon">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
+  <div class="sk-folding-cube">
+    <div class="sk-cube1 sk-cube"></div>
+    <div class="sk-cube2 sk-cube"></div>
+    <div class="sk-cube4 sk-cube"></div>
+    <div class="sk-cube3 sk-cube"></div>
+  </div>
   <nav></nav>
   <div class="bg main-container background flex-container">
     <div style="visibility:hidden">hi </div>
@@ -23,28 +33,32 @@
 
   </div>
   <div class="container main-container">
-    <div class="main-content">
-      <img class="icon" src="/img/marsicon.JPG">
-      <br>
-      <p>The idea of building a self-sustaining colonization on Mars and becoming an interplanetary species has seen decades of discussions. It is an aspiring mission that companies such as Mars One, NASA and SpaceX are currently working on . . . and
-        so are we.
-      </p>
-      <hr class="hr-home">
-      <h2 class="heading"> About us </h2>
-      <p> WatLock is a multidisciplinary student design team from the University of Waterloo with the mission to design an airlock for human habitation on Mars. Consisting of a diverse group of young innovators, WatLock hopes to address the many
-        challenges of space exploration.
-        <br>
-        <h3 class="heading">Did you know ?</h3>
-        We are one of the few design teams at the University of Waterloo that builds its foundation around space engineering and the only team working towards space colonization!
-      </p>
-      <hr class="hr-home">
+    <br>
+    <h1 class="heading"> About WatLock</h1>
+    <p class="main-content">The idea of building a self-sustaining colonization on Mars and becoming an interplanetary
+      species has seen
+      decades of discussions. It is an aspiring and ambitious mission that companies such as Mars One, NASA and SpaceX
+      are currently
+      working on . . . and
+      so are we. </p>
+    <hr class="hr-home"><br>
+    <p class="main-content">
+      WatLock is a multidisciplinary student design team from the University of Waterloo consisting of students from
+      multiple faculties including Engineering, Science, Mathematics and Arts. Our mission is
+      mission to design
+      an self-sustainable airlock for human habitation on Mars. Consisting of a diverse group of young innovators,
+      WatLock hopes to
+      address the many
+      challenges of space exploration, space engineering and space colonization!
 
-    </div>
+    </p>
   </div>
 
   <div class="bg2 background">
     <p class="quote">
-      "You want to wake up in the morning and think the future is going to be great - and that's what being a spacefaring civilization is all about. It's about believing in the future and thinking that the future will be better than the past. And I
+      "You want to wake up in the morning and think the future is going to be great - and that's what being a
+      spacefaring civilization is all about. It's about believing in the future and thinking that the future will be
+      better than the past. And I
       can't think of anything more exciting than going out there and being among the stars."
       <br><br>
       - Elon Musk, SpaceX
@@ -52,15 +66,17 @@
     </p>
 
   </div>
+  <br><br>
   <div class="container main-container">
-    <img class="" src="">
-    <h2 class="heading"> Project Airlock Challenge | Phase I <img class="icon" src="img/tick.JPG"> </h2>
-    <p class="align-left main-content">
+    <h2 class="heading"> Project Airlock Challenge | Phase I </h2>
+    <p class=" main-content">
       There is only one mission: Design and build an airlock that will function in a human colony on Mars.
       <br>
-      Our airlock will be crucial to providing a safe entryway into any sort of Martian habitat that can sustain an atmosphere for people to breathe.
+      Our airlock will be crucial to providing a safe entryway into any sort of Martian habitat that can sustain an
+      atmosphere for people to breathe.
       <br><br>
-      However, settling on the red planet inherently comes with numerous technical complications; the planet has a lack of pressure, no breathable atmosphere, extremely cold temperatures, and hazardous perchlorates in the soil.
+      However, settling on the red planet inherently comes with numerous technical complications; the planet has a lack
+      of pressure, no breathable atmosphere, extremely cold temperatures, and hazardous perchlorates in the soil.
       <br><br>
       <!--
       <img class="icon icon-margin" src="img/temperature.jpg">
@@ -69,16 +85,18 @@
       <img class="icon icon-margin" src="img/toxic.jpg">
       <br>
     -->
-      On the weekend of May 18th, 2019, various universities came together to present their airlock design at UBC’s Mars Colony Project Airlock Challenge. WatLock proudly won the best presentation award after months of hard work.
+      On the weekend of May 18th, 2019, various universities came together to present their airlock design at UBC’s Mars
+      Colony Project Airlock Challenge. WatLock proudly won the best presentation award after months of hard work.
 
     </p>
     <hr class="hr-home">
     <h2 class="heading"> Project Airlock Challenge | Phase II </h2>
     <br>
-    <p class="align-left main-content">
+    <p class=" main-content">
       Now that the design is done, it's time build a functional prototype!
       <br><br>
-      This spring 2019, we’ll be building a depressurization system and hatches for the airlock, designing a user interface for astronauts to use, and building a central computer.
+      This spring 2019, we’ll be building a depressurization system and hatches for the airlock, designing a user
+      interface for astronauts to use, and building a central computer.
       <br><br>
       Read more about the competition <a href="https://www.ubcmarscompetition.com/" target="_blank"> here! </a>
     </p>
@@ -87,6 +105,20 @@
   <div class="bg3 background">
   </div>
 
+  <script>
+    $(document).ready(function () {
+      //Preloader
+      $(window).on("load", function () {
+        preloaderFadeOutTime = 500;
+
+        function hidePreloader() {
+          var preloader = $('.sk-folding-cube');
+          preloader.fadeOut(preloaderFadeOutTime);
+        }
+        hidePreloader();
+      });
+    });
+  </script>
 </body>
 <!--
 <footer class="footer">
@@ -114,11 +146,15 @@
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
   <div class="container">
     <div class="text-center center-block">
-      <a href="https://www.facebook.com/WaterlooAirlock/" id="social-fb"class="btn btn-social-icon btn-facebook">
+      <a href="https://www.facebook.com/WaterlooAirlock/" target="_blank" id="social-fb"
+        class="btn btn-social-icon btn-facebook">
         <i class="fa fa-facebook fa-3x social"></i></a>
-        <a href="https://twitter.com/_watlock?lang=en" id="social-tw" class="btn btn-social-icon btn-twitter"><i class="fa fa-twitter  fa-3x social"></i></a>
-      <a href="https://www.instagram.com/watlock_/" id="social-ig" class="btn btn-social-icon btn-instagram"><i class="fa fa-instagram fa-3x social"></i></a>
-      <a  href="https://www.linkedin.com/company/watlock/" id="social-in"class="btn btn-social-icon btn-linkedin"><i class="fa fa-linkedin fa-3x social"></i></a>
+      <a href="https://twitter.com/_watlock?lang=en" target="_blank" id="social-tw"
+        class="btn btn-social-icon btn-twitter"><i class="fa fa-twitter  fa-3x social"></i></a>
+      <a href="https://www.instagram.com/watlock_/" target="_blank" id="social-ig"
+        class="btn btn-social-icon btn-instagram"><i class="fa fa-instagram fa-3x social"></i></a>
+      <a href="https://www.linkedin.com/company/watlock/" target="_blank" id="social-in"
+        class="btn btn-social-icon btn-linkedin"><i class="fa fa-linkedin fa-3x social"></i></a>
 
     </div>
   </div>
@@ -136,14 +172,14 @@
 <script src="js/inclusion.js"></script>
 
 <script>
-  $(window).scroll(function() {
+  $(window).scroll(function () {
     let top = $(window).scrollTop();
     if (top >= 150) {
       $('nav').addClass("bg-dark")
     } else if ($(window).width() > 785) {
       $('nav').removeClass("bg-dark")
     }
-    $(window).resize(function() {
+    $(window).resize(function () {
       if ($(window).width() <= 785) {
         $('nav').addClass("bg-dark")
       } else {
@@ -153,6 +189,7 @@
 
   })
 </script>
+
 
 </html>
 
@@ -167,14 +204,18 @@ html {
 
   /* } */
   @viewport {
-  width: device-width ;
-  zoom: 1.0 ;
-}
+    width: device-width;
+    zoom: 1.0;
+  }
 
   nav {
     transition: background-color 400ms !important;
     -webkit-transition: background-color 400ms !important;
     /* Safari */
+  }
+
+  body {
+    background-color: #F5F5F5;
   }
 
   .intro {
@@ -208,7 +249,7 @@ html {
     text-align: left;
     margin-right: 65vw;
     text-decoration: none;
-    font-size:1em;
+    font-size: 1em;
     border-radius: 1em;
   }
 
@@ -244,14 +285,14 @@ html {
   body,
   html {
     height: 100%;
-    width:100%;
+    width: 100%;
 
   }
 
 
   .bg {
     /* The image used */
-    background-image: url("img/mars-background.jpg");
+    background-image: url("img/mars-background-min.jpg");
 
 
     /* Full height */
@@ -261,21 +302,21 @@ html {
 
   .bg2 {
     /* The image used */
-    background-image: url("img/mars.jpg");
+    background-image: url("img/mars-min.jpg");
 
 
     /* Full height */
     height: 90%;
-    width:100%;
+    width: 100%;
     margin-top: 50px;
   }
 
   .bg3 {
     /* The image used */
-    background-image: url("img/stars.jpg");
+    background-image: url("img/stars-min.jpg");
 
     height: 50%;
-    width:100%;
+    width: 100%;
 
   }
 
@@ -310,7 +351,6 @@ html {
     font-size: 1.3em;
     margin-top: 10px;
     margin-bottom: 40px;
-    text-align: center;
     font-weight: normal;
     color: black;
 
@@ -335,7 +375,7 @@ html {
     width: auto;
     height: 28px;
     margin-bottom: 5px;
-    margin-left:1%;
+    margin-left: 1%;
 
   }
 
@@ -348,7 +388,7 @@ html {
     margin-top: 10 px;
     font-family: "Times New Roman", sans-serif;
     font-weight: bold;
-    font-size:1.5em;
+    font-size: 1.5em;
   }
 
   .hr-home {
@@ -362,12 +402,125 @@ html {
     font-size: 1.3em;
     color: white;
     width: 20vw;
-    height:60%;
+    height: 60%;
     border: 5px solid white;
     padding: 20px;
     margin-left: 65%;
     margin-top: 90px;
     position: absolute;
+  }
+
+  .sk-folding-cube {
+    position: absolute;
+    top: 48%;
+    left: 48%;
+    width: 40px;
+    height: 40px;
+    -webkit-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+  }
+
+  .sk-folding-cube .sk-cube {
+    float: left;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  .sk-folding-cube .sk-cube:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
+    animation: sk-foldCubeAngle 2.4s infinite linear both;
+    -webkit-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+  }
+
+  .sk-folding-cube .sk-cube2 {
+    -webkit-transform: scale(1.1) rotateZ(90deg);
+    transform: scale(1.1) rotateZ(90deg);
+  }
+
+  .sk-folding-cube .sk-cube3 {
+    -webkit-transform: scale(1.1) rotateZ(180deg);
+    transform: scale(1.1) rotateZ(180deg);
+  }
+
+  .sk-folding-cube .sk-cube4 {
+    -webkit-transform: scale(1.1) rotateZ(270deg);
+    transform: scale(1.1) rotateZ(270deg);
+  }
+
+  .sk-folding-cube .sk-cube2:before {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+  }
+
+  .sk-folding-cube .sk-cube3:before {
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+  }
+
+  .sk-folding-cube .sk-cube4:before {
+    -webkit-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+  }
+
+  @-webkit-keyframes sk-foldCubeAngle {
+
+    0%,
+    10% {
+      -webkit-transform: perspective(140px) rotateX(-180deg);
+      transform: perspective(140px) rotateX(-180deg);
+      opacity: 0;
+    }
+
+    25%,
+    75% {
+      -webkit-transform: perspective(140px) rotateX(0deg);
+      transform: perspective(140px) rotateX(0deg);
+      opacity: 1;
+    }
+
+    90%,
+    100% {
+      -webkit-transform: perspective(140px) rotateY(180deg);
+      transform: perspective(140px) rotateY(180deg);
+      opacity: 0;
+    }
+  }
+
+  @keyframes sk-foldCubeAngle {
+
+    0%,
+    10% {
+      -webkit-transform: perspective(140px) rotateX(-180deg);
+      transform: perspective(140px) rotateX(-180deg);
+      opacity: 0;
+    }
+
+    25%,
+    75% {
+      -webkit-transform: perspective(140px) rotateX(0deg);
+      transform: perspective(140px) rotateX(0deg);
+      opacity: 1;
+    }
+
+    90%,
+    100% {
+      -webkit-transform: perspective(140px) rotateY(180deg);
+      transform: perspective(140px) rotateY(180deg);
+      opacity: 0;
+    }
   }
 
   #lab_social_icon_footer {
@@ -405,7 +558,7 @@ html {
   }
 
   #lab_social_icon_footer #social-ig:hover {
-    color:  #4E433C;
+    color: #4E433C;
   }
 
 
@@ -421,53 +574,51 @@ html {
 
 
   /* Mobile Styles */
-@media only screen and (max-width: 500px) {
-  
-  .flex-container{
-    display:flex;
+  @media only screen and (max-width: 500px) {
+
+    .flex-container {
+      display: flex;
+    }
+
+    .bg {
+      /* The image used */
+      background-image: url("img/mars-background.jpg");
+
+      display: flex;
+      /* Full height */
+      height: 100vh;
+      width: 100vw;
+    }
+
+    .sub-intro {
+      color: white;
+      position: relative;
+      font-family: "Open Sans", sans-serif;
+      width: 100%;
+      text-align: left;
+      height: 35%;
+      font-size: 1.3em;
+    }
+
+    .quote {
+      font-style: oblique;
+      font-family: Georgia, sans-serif;
+      font-size: 1.3em;
+      color: white;
+      width: 80vw;
+      height: 70%;
+      border: 5px solid white;
+      padding: 20px;
+      margin-left: 10%;
+      margin-top: 90px;
+      position: absolute;
+    }
+
   }
-  .bg {
-    /* The image used */
-    background-image: url("img/mars-background.jpg");
 
-    display:flex;
-    /* Full height */
-    height: 100vh;
-    width: 100vw;
-  }
+  /* Tablet Styles */
+  @media only screen and (min-width: 501px) and (max-width: 960px) {}
 
-  .sub-intro {
-    color: white;
-    position: relative;
-    font-family: "Open Sans", sans-serif;
-    width: 100%;
-    text-align: left;
-    height: 35%;
-    font-size: 1.3em;
-  }
-
-  .quote {
-    font-style: oblique;
-    font-family: Georgia, sans-serif;
-    font-size: 1.3em;
-    color: white;
-    width: 80vw;
-    height:70%;
-    border: 5px solid white;
-    padding: 20px;
-    margin-left: 10%;
-    margin-top: 90px;
-    position: absolute;
-  }
-
-}
-
-/* Tablet Styles */
-@media only screen and (min-width: 501px) and (max-width: 960px) {
-
-}
-
-/* Desktop Styles */
-@media only screen and (min-width: 961px) {
-}
+  /* Desktop Styles */
+  @media only screen and (min-width: 961px) {}
 </style>
