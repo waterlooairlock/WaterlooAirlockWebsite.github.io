@@ -44,7 +44,7 @@ $(document).ready(function () {
     <nav class="navbar navbar-expand-md navbar-dark fixed-top `+ dark + `" id="mainNav">
         <div class="container">
 
-            <a class="navbar-brand" href="`+ SCRIPT_ROOT + `index"><img src="` + SCRIPT_ROOT + `` + logo + `" height="auto" width="100px" alt="watlockicon"></a>
+            <a class="navbar-brand" href="`+ SCRIPT_ROOT + `home"><img src="` + SCRIPT_ROOT + `` + logo + `" height="auto" width="100px" alt="watlockicon"></a>
 
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -52,21 +52,21 @@ $(document).ready(function () {
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="`+ SCRIPT_ROOT + `pages/MeetTheTeam.html" style="color:white">Meet the Team</a>
+                    <a class="nav-link" href="`+ SCRIPT_ROOT + `pages/MeetTheTeam" style="color:white">Meet the Team</a>
                 </li>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="`+ SCRIPT_ROOT + `pages/timeline.html" style="color:white">Timeline</a>
+                    <a class="nav-link" href="`+ SCRIPT_ROOT + `pages/timeline" style="color:white">Timeline</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="`+ SCRIPT_ROOT + `pages/joinus.html" style="color:white">Join us</a>
+                    <a class="nav-link" href="`+ SCRIPT_ROOT + `pages/joinus" style="color:white">Join us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="`+ SCRIPT_ROOT + `pages/sponsors.html"style="color:white">Sponsors</a>
+                    <a class="nav-link" href="`+ SCRIPT_ROOT + `pages/sponsors"style="color:white">Sponsors</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="`+ SCRIPT_ROOT + `pages/contact.html"style="color:white">Contact us</a>
+                    <a class="nav-link" href="`+ SCRIPT_ROOT + `pages/contactus"style="color:white">Contact us</a>
                 </li>
 
                   </ul>
