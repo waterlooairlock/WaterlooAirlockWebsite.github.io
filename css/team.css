@@ -44,10 +44,12 @@ figcaption {
   text-align: center;
   bottom: 10%;
 }
-
+i{
+  font-size:1.0em;
+}
 p {
   font-family: Arial, Times, serif;
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 [class*=' imghvr-'],
