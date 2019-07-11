@@ -12,6 +12,8 @@
   <link rel="shortcut icon" href="watlocklogotab.png" type="image/x-icon">
   <link rel="icon" href="watlocklogotab.png" type="image/x-icon">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 <body>
@@ -24,7 +26,7 @@
   <nav></nav>
   <div class="bg main-container background flex-container">
     <div style="visibility:hidden">hi </div>
-    <div class="container heading-container">
+    <div data-aos="fade-down" data-aos-offset="300"class="container heading-container">
       <!--            <img class="mainicon" src="watlocklogo.png" alt="WatLock Logo">-->
       <p class="intro">Design. Build. Compete.</p>
       <p class="sub-intro"> <strong>WatLock</strong> ventures towards Mars Colonization!</p>
@@ -32,17 +34,17 @@
     </div>
 
   </div>
-  <div class="container main-container">
+  <div class="container main-container ">
     <br>
-    <h1 class="heading"> About WatLock</h1>
-    <p class="main-content">The idea of building a self-sustaining colonization on Mars and becoming an interplanetary
+    <h1  data-aos="fade-up" data-aos-offset="200"class="heading"> About WatLock</h1>
+    <p  data-aos="fade-up" data-aos-offset="200"class="main-content">The idea of building a self-sustaining colonization on Mars and becoming an interplanetary
       species has seen
       decades of discussions. It is an aspiring and ambitious mission that companies such as Mars One, NASA and SpaceX
       are currently
       working on . . . and
       so are we. </p>
-    <hr class="hr-home"><br>
-    <p class="main-content">
+    <hr  data-aos="fade-up" data-aos-offset="200"class="hr-home"><br>
+    <p  data-aos="fade-up" data-aos-offset="200" class="main-content">
       WatLock is a multidisciplinary student design team from the University of Waterloo consisting of students from
       multiple faculties including Engineering, Science, Mathematics and Arts. Our mission is
       mission to design
@@ -55,7 +57,7 @@
   </div>
 
   <div class="bg2 background">
-    <p class="quote">
+    <p data-aos="zoom-in-up" class="quote">
       "You want to wake up in the morning and think the future is going to be great - and that's what being a
       spacefaring civilization is all about. It's about believing in the future and thinking that the future will be
       better than the past. And I
@@ -68,8 +70,8 @@
   </div>
   <br><br>
   <div class="container main-container">
-    <h2 class="heading"> Project Airlock Challenge | Phase I </h2>
-    <p class=" main-content">
+    <h2 data-aos="fade-down" data-aos-offset="200"class="heading"> Project Airlock Challenge | Phase I </h2>
+    <p data-aos="fade-down" data-aos-offset="200"class=" main-content">
       There is only one mission: Design and build an airlock that will function in a human colony on Mars.
       <br>
       Our airlock will be crucial to providing a safe entryway into any sort of Martian habitat that can sustain an
@@ -89,10 +91,10 @@
       Colony Project Airlock Challenge. WatLock proudly won the best presentation award after months of hard work.
 
     </p>
-    <hr class="hr-home">
-    <h2 class="heading"> Project Airlock Challenge | Phase II </h2>
+    <hr data-aos="fade-down" data-aos-offset="200"class="hr-home">
+    <h2 data-aos="fade-down" data-aos-offset="200"class="heading"> Project Airlock Challenge | Phase II </h2>
     <br>
-    <p class=" main-content">
+    <p data-aos="fade-down" data-aos-offset="200"class=" main-content">
       Now that the design is done, it's time build a functional prototype!
       <br><br>
       This spring 2019, we’ll be building a depressurization system and hatches for the airlock, designing a user
@@ -118,6 +120,10 @@
         hidePreloader();
       });
     });
+  </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
   </script>
 </body>
 <!--
