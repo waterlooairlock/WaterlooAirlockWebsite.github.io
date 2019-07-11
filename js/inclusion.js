@@ -44,7 +44,7 @@ $(document).ready(function () {
     <nav class="navbar navbar-expand-md navbar-dark fixed-top `+ dark + `" id="mainNav">
         <div class="container">
 
-            <a class="navbar-brand" href="`+ SCRIPT_ROOT + `home"><img src="` + SCRIPT_ROOT + `` + logo + `" height="auto" width="100px" alt="watlockicon"></a>
+            <a class="navbar-brand" href="`+ SCRIPT_ROOT + `index"><img src="` + SCRIPT_ROOT + `` + logo + `" height="auto" width="100px" alt="watlockicon"></a>
 
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
