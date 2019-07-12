@@ -13,7 +13,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
   </style>
@@ -37,7 +37,7 @@
     <ul class="timeline">
 
 
-      <li>
+      <li data-aos="fade-right" data-aos-offset="200">
         <div class="timeline-badge">
           <a><i class="fa fa-circle" id=""></i></a>
         </div>
@@ -81,9 +81,9 @@
           </div>
         </div>
       </li>
+ 
 
-
-      <li class="timeline-inverted">
+      <li data-aos="fade-left" data-aos-offset="200" class="timeline-inverted">
         <div class="timeline-badge">
           <a><i class="fa fa-circle invert" id=""></i></a>
         </div>
@@ -142,7 +142,7 @@
 
 
 
-      <li>
+      <li data-aos="fade-right" data-aos-offset="200">
         <div class="timeline-badge">
           <a><i class="fa fa-circle" id=""></i></a>
         </div>
@@ -163,7 +163,7 @@
         </div>
       </li>
 
-      <li class="timeline-inverted">
+      <li data-aos="fade-left" data-aos-offset="200" class="timeline-inverted">
         <div class="timeline-badge">
           <a><i class="fa fa-circle invert" id=""></i></a>
         </div>
@@ -182,7 +182,7 @@
         </div>
       </li>
 
-      <li>
+      <li data-aos="fade-right" data-aos-offset="200">
         <div class="timeline-badge">
           <a><i class="fa fa-circle invert" id=""></i></a>
         </div>
@@ -231,7 +231,7 @@
         </div>
       </li>
 
-      <li class="timeline-inverted">
+      <li  data-aos="fade-left" data-aos-offset="200" class="timeline-inverted">
         <div class="timeline-badge">
           <a><i class="fa fa-circle" id=""></i></a>
         </div>
@@ -251,7 +251,7 @@
         </div>
       </li>
 
-      <li>
+      <li data-aos="fade-right" data-aos-offset="200">
         <div class="timeline-badge">
           <a><i class="fa fa-circle invert" id=""></i></a>
         </div>
@@ -311,6 +311,10 @@
         hidePreloader();
       });
     });
+  </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
   </script>
 </body>
 <footer style="position: absolute;"></footer>
