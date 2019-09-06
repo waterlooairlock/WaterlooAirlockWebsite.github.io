@@ -52,7 +52,7 @@ $(document).ready(function () {
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="`+ SCRIPT_ROOT + `pages/MeetTheTeam" style="color:white">Meet the Team</a>
+                    <a class="nav-link" href="`+ SCRIPT_ROOT + `pages/MeetTheTeam" style="color:white">Meet The Team</a>
                 </li>
                 </li>
 
@@ -60,13 +60,13 @@ $(document).ready(function () {
                     <a class="nav-link" href="`+ SCRIPT_ROOT + `pages/timeline" style="color:white">Timeline</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="`+ SCRIPT_ROOT + `pages/joinus" style="color:white">Join us</a>
+                    <a class="nav-link" href="`+ SCRIPT_ROOT + `pages/joinus" style="color:white">Join Us</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="`+ SCRIPT_ROOT + `pages/sponsors"style="color:white">Sponsors</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="`+ SCRIPT_ROOT + `pages/contactus"style="color:white">Contact us</a>
+                    <a class="nav-link" href="`+ SCRIPT_ROOT + `pages/contactus"style="color:white">Contact Us</a>
                 </li>
 
                   </ul>

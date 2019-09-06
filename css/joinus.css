@@ -25,7 +25,8 @@ body {
   display: relative;
   font-size: 1.2em;
   color: rgb(241, 236, 236);
-  margin-left: 15px;
+  margin-top: 12px;
+  margin-left: 14px;
 }
 
 .main-content {
@@ -46,6 +47,7 @@ body {
   float:right;
   height:400px;
 }
+
 /*
 .icon {
   width: auto;
@@ -219,8 +221,7 @@ body {
 #lab_social_icon_footer {
   padding-bottom: 0;
   margin-bottom: 0;
-  position: absolute;
-  padding-left: 41%;
+  text-align: center;
 
 }
 
@@ -277,8 +278,6 @@ body {
   #lab_social_icon_footer {
     padding-bottom: 0;
     margin-bottom: 0;
-    position: absolute;
-    padding-left: 20%;
-
+    text-align: center;
   }
 }
