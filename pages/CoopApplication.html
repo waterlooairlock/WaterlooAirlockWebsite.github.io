@@ -1,1 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    h4 {
+        margin-bottom: 20px !important;
+    }
+    body {
+        background-color: #F5F5F5
+    }
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--<meta http-equiv="refresh" content="0; url=http://watlock.co/MeetTheTeam">-->
 
+
+<head>
+    <title>WatLock | Meet The Team</title>
+    <link rel="stylesheet" type="text/css" href="..\css\parallax-header.css">
+    <link rel="stylesheet" type="text/css" href="..\css\style.css">
+    <link rel="stylesheet" type="text/css" href="..\css\team.css">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'
+        integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/imagehover.css/1.0/css/imagehover.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div class="sk-folding-cube">
+        <div class="sk-cube1 sk-cube"></div>
+        <div class="sk-cube2 sk-cube"></div>
+        <div class="sk-cube4 sk-cube"></div>
+        <div class="sk-cube3 sk-cube"></div>
+    </div>
+    <nav></nav>
+    <div class="parallax" id="team-header-bg"></div>
+
+    <div class="parallax-caption desc-caption animatedParent">
+        <h2 class='animated bounceInUp' data-id='1'><b>Welcome to WatLock</b></h2>
+        <!---->
+        <h3 class='animated bounceInUp' data-id='2'>Meet The Team</h3>
+        <p class='animated bounceInUp responsive' data-id='2' style="font-size: 1.1em">WatLock is a multidisciplinary
+            team consisting of over 50 students from faculties across the University of Waterloo. Our members are 
+            organized in three major teams: Mechanical, Electrical and Business/Communications.</p>
+    </div>
+    <div class="main-container">
+        <!-- Main Body Section -->
+
+
+    </div> 
+    <script>
+        $(document).ready(function () {
+            //Preloader
+            $(window).on("load", function () {
+                preloaderFadeOutTime = 500;
+                function hidePreloader() {
+                    var preloader = $('.sk-folding-cube');
+                    preloader.fadeOut(preloaderFadeOutTime);
+                }
+                hidePreloader();
+            });
+        });
+    </script>
+    
+</body>
+<script src="../vendor/jquery/jquery.min.js"></script>
+<script src="../js/inclusion.js"></script>
+
+<section id="lab_social_icon_footer">
+    <!-- Include Font Awesome Stylesheet in Header -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <div class="container">
+        <div class="text-center center-block">
+            <a href="https://www.facebook.com/WaterlooAirlock/" target="_blank" id="social-fb"
+                class="btn btn-social-icon btn-facebook">
+                <i class="fa fa-facebook fa-3x social"></i></a>
+            <a href="https://twitter.com/_watlock?lang=en" target="_blank" id="social-tw"
+                class="btn btn-social-icon btn-twitter"><i class="fa fa-twitter  fa-3x social"></i></a>
+            <a href="https://www.instagram.com/watlock_/" target="_blank" id="social-ig"
+                class="btn btn-social-icon btn-instagram"><i class="fa fa-instagram fa-3x social"></i></a>
+            <a href="https://www.linkedin.com/company/watlock/" target="_blank" id="social-in"
+                class="btn btn-social-icon btn-linkedin"><i class="fa fa-linkedin fa-3x social"></i></a>
+            <a href="mailto:waterlooairlockteam@gmail.com" target="_blank"
+                class="btn btn-social-icon btn-linkedin"><i class="fa fa-envelope fa-3x social"></i></a>
+
+        </div>
+    </div>
+</section>
+
+</html>
