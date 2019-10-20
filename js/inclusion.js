@@ -55,9 +55,11 @@ $(document).ready(function () {
                     <a class="nav-link" href="`+ SCRIPT_ROOT + `pages/MeetTheTeam" style="color:white">Meet The Team</a>
                 </li>
                 </li>
-
                 <li class="nav-item">
                     <a class="nav-link" href="`+ SCRIPT_ROOT + `pages/timeline" style="color:white">Timeline</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="`+ SCRIPT_ROOT + `pages/CoopApplication" style="color:white">Co-Op Application</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="`+ SCRIPT_ROOT + `pages/joinus" style="color:white">Join Us</a>
