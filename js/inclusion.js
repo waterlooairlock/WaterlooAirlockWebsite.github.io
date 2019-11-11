@@ -62,6 +62,9 @@ $(document).ready(function () {
                     <a class="nav-link" href="`+ SCRIPT_ROOT + `pages/Coop" style="color:white">Co-Op</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="`+ SCRIPT_ROOT + `pages/CoopApply" style="color:white">Co-Op</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="`+ SCRIPT_ROOT + `pages/joinus" style="color:white">Join Us</a>
                 </li>
                 <li class="nav-item">
