@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<head>
+  <title>WatLock | Welcome</title>
+  <link href="css/main.css" rel="stylesheet">
+  <link rel="shortcut icon" href="watlocklogotab.png" type="image/x-icon">
+  <link rel="icon" href="watlocklogotab.png" type="image/x-icon">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+
+<body>
+  <div class="sk-folding-cube">
+    <div class="sk-cube1 sk-cube"></div>
+    <div class="sk-cube2 sk-cube"></div>
+    <div class="sk-cube4 sk-cube"></div>
+    <div class="sk-cube3 sk-cube"></div>
+  </div>
+  <nav></nav>
+  <div class="bg main-container background flex-container">
+    <div data-aos="fade-down" data-aos-offset="300"class="container heading-container">
+      <!--            <img class="mainicon" src="watlocklogo.png" alt="WatLock Logo">-->
+      <p class="intro">Design. Build. Compete.</p>
+      <p class="sub-intro"> <strong>WatLock</strong> ventures towards Mars Colonization!</p>
+      <button type="button" class="button"><a class="white" href="pages/joinus.html">Join Us</a></button>
+    </div>
+
+  </div>
+  <div class="container main-container ">
+    <br>
+    <h1  data-aos="fade-up" data-aos-offset="200"class="heading"> About WatLock</h1>
+    <p  data-aos="fade-up" data-aos-offset="200"class="main-content">The idea of building a self-sustaining colonization on Mars and becoming an interplanetary
+      species has seen
+      decades of discussions. It is an aspiring and ambitious mission that companies such as Mars One, NASA and SpaceX
+      are currently
+      working on . . . and
+      so are we. </p>
+    <hr  data-aos="fade-up" data-aos-offset="200"class="hr-home"><br>
+    <p  data-aos="fade-up" data-aos-offset="200" class="main-content">
+      WatLock is a diverse student design team from the University of Waterloo consisting of students from
+      multiple faculties including Engineering, Science, Mathematics and Arts. Our mission is
+      to design an self-sustainable airlock for human habitation on Mars. Consisting of a multifaceted group of young innovators,
+      WatLock hopes to address the many challenges of space exploration, space engineering and space colonization!
+    </p>
+  </div>
+
+  <div class="bg2 background">
+    <p data-aos="zoom-in-up" class="quote">
+      "You want to wake up in the morning and think the future is going to be great - and that's what being a
+      spacefaring civilization is all about. It's about believing in the future and thinking that the future will be
+      better than the past. And I
+      can't think of anything more exciting than going out there and being among the stars."
+      <br><br>
+      - Elon Musk, SpaceX
+
+    </p>
+
+  <div class="bg3 background">
+  </div>
+
+  <script>
+    $(document).ready(function () {
+      //Preloader
+      $(window).on("load", function () {
+        preloaderFadeOutTime = 500;
+
+        function hidePreloader() {
+          var preloader = $('.sk-folding-cube');
+          preloader.fadeOut(preloaderFadeOutTime);
+        }
+        hidePreloader();
+      });
+    });
+  </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+<!--
+<footer class="footer">
+  <div class="container text-right">
+    <a class="white" href="https://www.linkedin.com/company/watlock/" target="_blank" id="social_media_icon">
+      <i class="fa fa-linkedin-square fa-4x mb-3 media-icon" aria-hidden="true"></i>
+    </a>
+    &nbsp
+    <a class="white" href="https://www.facebook.com/WaterlooAirlock/" target="_blank" id="social_media_icon">
+      <i class="fa fa-facebook-square fa-4x mb-3 media-icon" aria-hidden="true"></i>
+    </a>
+    &nbsp
+    <a class="white" href="https://www.instagram.com/watlock_/" target="_blank" id="social_media_icon">
+      <i class="fa fa-instagram fa-4x mb-3 media-icon" aria-hidden="true"></i>
+    </a>
+    &nbsp
+    <a class="white" href="https://twitter.com/lock_wat" target="_blank" id="social_media_icon">
+      <i class="fa fa-twitter-square fa-4x mb-3 media-icon" aria-hidden="true"></i>
+    </a>
+  </div>
+</footer>
+-->
+<section id="lab_social_icon_footer">
+  <!-- Include Font Awesome Stylesheet in Header -->
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <div class="container">
+    <div class="text-center center-block">
+      <a href="https://www.facebook.com/WaterlooAirlock/" target="_blank" id="social-fb"
+        class="btn btn-social-icon btn-facebook">
+        <i class="fa fa-facebook fa-3x social"></i></a>
+      <a href="https://twitter.com/_watlock?lang=en" target="_blank" id="social-tw"
+        class="btn btn-social-icon btn-twitter"><i class="fa fa-twitter  fa-3x social"></i></a>
+      <a href="https://www.instagram.com/watlock_/" target="_blank" id="social-ig"
+        class="btn btn-social-icon btn-instagram"><i class="fa fa-instagram fa-3x social"></i></a>
+      <a href="https://www.linkedin.com/company/watlock/" target="_blank" id="social-in"
+        class="btn btn-social-icon btn-linkedin"><i class="fa fa-linkedin fa-3x social"></i></a>
+
+    </div>
+  </div>
+</section>
+
+<footer style="position: absolute;"></footer>
+
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="js/inclusion.js"></script>
+
+<script>
+  $(window).scroll(function () {
+    let top = $(window).scrollTop();
+    if (top >= 150) {
+      $('nav').addClass("bg-dark")
+    } else if ($(window).width() > 785) {
+      $('nav').removeClass("bg-dark")
+    }
+    $(window).resize(function () {
+      if ($(window).width() <= 785) {
+        $('nav').addClass("bg-dark")
+      } else {
+        $('nav').removeClass("bg-dark")
+      }
+    })
+
+  })
+</script>
+
+
+</html>
+
+<style>
+  /* body,
+html {
+    min-height: 100%; */
+
+  /* height:100%; */
+
+  /* margin-bottom: 0px; */
+
+  /* } */
+  @viewport {
+    width: device-width;
+    zoom: 1.0;
+  }
+
+  nav {
+    transition: background-color 400ms !important;
+    -webkit-transition: background-color 400ms !important;
+    /* Safari */
+  }
+
+  body {
+    background-color: #F5F5F5;
+  }
+
+  .intro {
+    color: white;
+    text-align: left;
+    position: relative;
+    margin-bottom: 5px;
+    font-size: 3.2em;
+    font-family: "Open Sans", sans-serif;
+
+  }
+
+  .sub-intro {
+    color: white;
+    position: relative;
+    font-family: "Open Sans", sans-serif;
+    width: 50%;
+    text-align: left;
+    height: 35%;
+    font-size: 1.3em;
+  }
+
+  .button {
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    border: none;
+    padding: 10px 18px;
+    position: relative;
+    text-align: left;
+    margin-right: 65vw;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 1em;
+  }
+
+  .white {
+    color: white;
+  }
+
+  .heading-container {
+    color: white !important;
+    margin-top: 20% !important;
+    text-align: center;
+  }
+
+  .mainicon {
+    width: 30%;
+    height: auto;
+    position: absoulute;
+    margin-top: 2px;
+  }
+
+  @media only screen and (max-width: 768px) {
+
+    .heading-container {
+      margin-top: 40% !important;
+    }
+
+    .mainicon {
+      width: 50% !important;
+      height: auto;
+    }
+  }
+
+  body,
+  html {
+    height: 100%;
+    width: 100%;
+
+  }
+
+
+  .bg {
+    /* The image used */
+    background-image: url("img/mars-background-min.jpg");
+
+
+    /* Full height */
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .bg2 {
+    /* The image used */
+    background-image: url("img/mars-min.jpg");
+
+
+    /* Full height */
+    height: 100%; */
+
+    width: 100%;
+    margin-top: 50px;
+
+  }
+
+  .bg3 {
+    /* The image used */
+    background-image: url("img/stars-min.jpg");
+
+    height: 50%;
+    width: 100%;
+
+  }
+
+  .background {
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    /* Create the parallax scrolling effect*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .full {
+    height: 100%;
+  }
+
+  #challenge-header {
+    margin-top: 40px;
+  }
+
+  .challenge-content {
+    margin-top: 20px;
+  }
+
+  .main-content {
+    font-family: Arial, Times, serif;
+    font-size: 1.3em;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-weight: normal;
+    color: black;
+
+  }
+
+  .align-left.main-content {
+    text-align: left;
+  }
+
+
+
+  .container-fluid {
+    padding-bottom: 50px;
+    margin-bottom: 0px;
+  }
+
+  .container h2 {
+    color: #222222;
+  }
+
+  .icon {
+    width: auto;
+    height: 28px;
+    margin-bottom: 5px;
+    margin-left: 1%;
+
+  }
+
+
+  .icon-margin {
+    margin-left: 30%
+  }
+
+  .heading {
+    margin-top: 10 px;
+    font-family: "Times New Roman", sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+
+  .hr-home {
+    border-width: 5px;
+    margin-top: 50px;
+  }
+
+  .quote {
+    font-style: oblique;
+    font-family: Georgia, sans-serif;
+    font-size: 1.3rem;
+    color: white;
+    border: 5px solid white;
+    padding:1%;
+    margin-right:10%;
+    margin-left: 65%;
+    margin-top: 5%;
+    position: absolute;
+  }
+
+  .sk-folding-cube {
+    position: absolute;
+    top: 48%;
+    left: 48%;
+    width: 40px;
+    height: 40px;
+    -webkit-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+  }
+
+  .sk-folding-cube .sk-cube {
+    float: left;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  .sk-folding-cube .sk-cube:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
+    animation: sk-foldCubeAngle 2.4s infinite linear both;
+    -webkit-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+  }
+
+  .sk-folding-cube .sk-cube2 {
+    -webkit-transform: scale(1.1) rotateZ(90deg);
+    transform: scale(1.1) rotateZ(90deg);
+  }
+
+  .sk-folding-cube .sk-cube3 {
+    -webkit-transform: scale(1.1) rotateZ(180deg);
+    transform: scale(1.1) rotateZ(180deg);
+  }
+
+  .sk-folding-cube .sk-cube4 {
+    -webkit-transform: scale(1.1) rotateZ(270deg);
+    transform: scale(1.1) rotateZ(270deg);
+  }
+
+  .sk-folding-cube .sk-cube2:before {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+  }
+
+  .sk-folding-cube .sk-cube3:before {
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+  }
+
+  .sk-folding-cube .sk-cube4:before {
+    -webkit-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+  }
+
+  @-webkit-keyframes sk-foldCubeAngle {
+
+    0%,
+    10% {
+      -webkit-transform: perspective(140px) rotateX(-180deg);
+      transform: perspective(140px) rotateX(-180deg);
+      opacity: 0;
+    }
+
+    25%,
+    75% {
+      -webkit-transform: perspective(140px) rotateX(0deg);
+      transform: perspective(140px) rotateX(0deg);
+      opacity: 1;
+    }
+
+    90%,
+    100% {
+      -webkit-transform: perspective(140px) rotateY(180deg);
+      transform: perspective(140px) rotateY(180deg);
+      opacity: 0;
+    }
+  }
+
+  @keyframes sk-foldCubeAngle {
+
+    0%,
+    10% {
+      -webkit-transform: perspective(140px) rotateX(-180deg);
+      transform: perspective(140px) rotateX(-180deg);
+      opacity: 0;
+    }
+
+    25%,
+    75% {
+      -webkit-transform: perspective(140px) rotateX(0deg);
+      transform: perspective(140px) rotateX(0deg);
+      opacity: 1;
+    }
+
+    90%,
+    100% {
+      -webkit-transform: perspective(140px) rotateY(180deg);
+      transform: perspective(140px) rotateY(180deg);
+      opacity: 0;
+    }
+  }
+
+  #lab_social_icon_footer {
+    padding: 40px 0;
+    background-color: white;
+  }
+
+  #lab_social_icon_footer a {
+    color: #333;
+  }
+
+  #lab_social_icon_footer .social:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+  }
+
+  #lab_social_icon_footer .social {
+    -webkit-transform: scale(0.8);
+    /* Browser Variations: */
+
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+  }
+
+  /*
+      Multicoloured Hover Variations
+  */
+
+  #lab_social_icon_footer #social-fb:hover {
+    color: #3B5998;
+  }
+
+  #lab_social_icon_footer #social-ig:hover {
+    color: #4E433C;
+  }
+
+
+  #lab_social_icon_footer #social-tw:hover {
+    color: #4099FF;
+  }
+
+  #lab_social_icon_footer #social-in:hover {
+    color: #4875B4;
+  }
+
+
+
+
+  /* Mobile Styles */
+  @media only screen and (max-width: 500px) {
+
+    .flex-container {
+      display: flex;
+    }
+
+    .bg {
+      /* The image used */
+      background-image: url("img/mars-background.jpg");
+
+      display: flex;
+      /* Full height */
+      height: 100vh;
+      width: 100vw;
+    }
+
+    .sub-intro {
+      color: white;
+      position: relative;
+      font-family: "Open Sans", sans-serif;
+      width: 100%;
+      text-align: left;
+      height: 35%;
+      font-size: 1.3em;
+    }
+
+    .quote {
+      font-style: oblique;
+      font-family: Georgia, sans-serif;
+      font-size: 1.3em;
+      color: white;
+      width: 80vw;
+      height: 70%;
+      border: 5px solid white;
+      padding: 20px;
+      margin-left: 10%;
+      margin-top: 90px;
+      position: absolute;
+    }
+
+  }
+
+  /* Tablet Styles */
+  @media only screen and (min-width: 501px) and (max-width: 960px) {}
+
+  /* Desktop Styles */
+  @media only screen and (min-width: 961px) {}
+</style>
