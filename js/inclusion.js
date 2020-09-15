@@ -52,7 +52,7 @@ $(document).ready(function () {
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="`+ SCRIPT_ROOT + `pages/MeetTheTeam" style="color:white">Meet The Team</a>
+                    <a class="nav-link" href="`+ SCRIPT_ROOT + `pages/MeetTheTeam" style="color:white">Our Team</a>
                 </li>
                 </li>
                 <li class="nav-item">
